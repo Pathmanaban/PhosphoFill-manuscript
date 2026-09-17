@@ -29,3 +29,10 @@
 
 These exclusions affect storage, not the frozen numerical results included in
 the repository.
+
+## Licensing
+
+Original PhosphoFill data, figures, tables, and documentation are provided
+under CC BY 4.0. Analysis and reproduction code is provided under Apache 2.0.
+Third-party structures and comparator materials retain their source terms and
+are not relicensed. See `LICENSE_SCOPE.md`.

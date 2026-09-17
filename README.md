@@ -88,3 +88,10 @@ storage-heavy artifacts will be available through Scop3P.
 The frozen benchmark and structural-audit subdirectories retain their original
 SHA-256 manifests and verification reports. Newly curated repository-level
 files are documented through the source map above.
+
+## Licensing
+
+Code is licensed under Apache 2.0. Original PhosphoFill data, tables, figures,
+captions, and documentation are licensed under CC BY 4.0. Externally sourced
+structures and third-party materials retain their original terms. See
+[LICENSE](LICENSE), [LICENSE_SCOPE.md](LICENSE_SCOPE.md), and `LICENSES/`.
