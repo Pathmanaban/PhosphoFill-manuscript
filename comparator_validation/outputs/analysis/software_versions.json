@@ -1,0 +1,12 @@
+{
+  "python": "3.12.13",
+  "pymol": "3.1.6.1",
+  "pytms": "1.2",
+  "ptmpsi": "0.1.0",
+  "ptmpsi_git_commit": "eb5422b6ff1ae00e8e214a5afe91147794865a8e",
+  "numpy": "2.5.2",
+  "pandas": "3.0.1",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.1"
+}
+

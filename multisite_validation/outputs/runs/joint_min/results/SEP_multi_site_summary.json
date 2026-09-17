@@ -1,0 +1,54 @@
+{
+  "weight_0.0__pack_0.2": {
+    "total_rows": 76,
+    "ok": 73,
+    "stage0_seed_rmsd": {
+      "n": 73,
+      "mean": 2.4468,
+      "median": 2.6893,
+      "std": 0.9391,
+      "min": 0.2097,
+      "max": 3.77
+    },
+    "stage1_best_of_12_rmsd": {
+      "n": 73,
+      "mean": 0.6111,
+      "median": 0.5029,
+      "std": 0.3233,
+      "min": 0.1606,
+      "max": 1.3112
+    },
+    "stage2_selected_rmsd": {
+      "n": 73,
+      "mean": 1.4387,
+      "median": 1.1245,
+      "std": 1.0274,
+      "min": 0.1738,
+      "max": 3.7177
+    },
+    "stage3_post_minimization_rmsd": {
+      "n": 73,
+      "mean": 1.4387,
+      "median": 1.1254,
+      "std": 1.0305,
+      "min": 0.1585,
+      "max": 3.7158
+    },
+    "top3_best_postmin_rmsd": {
+      "n": 73,
+      "mean": 0.7719,
+      "median": 0.5696,
+      "std": 0.5677,
+      "min": 0.1558,
+      "max": 2.8747
+    },
+    "stage2_scoring_gap": {
+      "n": 73,
+      "mean": 0.8276,
+      "median": 0.497,
+      "std": 0.9815,
+      "min": -0.0,
+      "max": 3.1631
+    }
+  }
+}

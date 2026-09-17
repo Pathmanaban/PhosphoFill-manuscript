@@ -1,0 +1,19 @@
+\begin{table}[h!]
+\caption{Strip-and-regraft validation for single-site phosphosites. RMSD values (\AA) are permutation-invariant phosphate RMSD against experimental coordinates. Top-1 is the highest-scored pose after minimisation. Top-3 best reports the minimum RMSD across three independently minimised ranked output poses.}
+\label{tab:validation}
+\centering
+\small
+\begin{tabularx}{\textwidth}{l c c c c c c c c}
+\toprule
+& & \multicolumn{3}{c}{\textbf{Median RMSD (\AA)}} & \multicolumn{4}{c}{\textbf{\% sites within threshold}} \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-9}
+\textbf{Type} & \textbf{$n$} & \textbf{Top-1} & \textbf{Top-3} & \textbf{S1} & \textbf{Top-1 $\leq$1.0} & \textbf{Top-3 $\leq$1.0} & \textbf{Top-1 $\leq$1.5} & \textbf{Top-3 $\leq$1.5} \\
+\midrule
+TPO & 332 & 0.42 & 0.42 & 0.42 & 77.4\% & 88.0\% & 87.3\% & 96.4\% \\
+SEP & 241 & 0.55 & 0.47 & 0.45 & 70.1\% & 88.0\% & 81.7\% & 96.3\% \\
+PTR & 217 & 1.02 & 0.61 & 0.52 & 47.0\% & 75.6\% & 77.0\% & 90.3\% \\
+\midrule
+Combined & 790 & 0.61 & 0.49 & 0.47 & 66.8\% & 84.6\% & 82.8\% & 94.7\% \\
+\bottomrule
+\end{tabularx}
+\end{table}

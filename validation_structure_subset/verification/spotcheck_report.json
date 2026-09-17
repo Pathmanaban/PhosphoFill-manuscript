@@ -1,0 +1,4782 @@
+{
+  "verified_at_utc": "2026-08-27T14:58:49.287255+00:00",
+  "root": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset",
+  "summary": {
+    "checks": 446,
+    "passed": 446,
+    "failed": 0,
+    "cases": 14,
+    "sites": 24,
+    "ok_sites": 20,
+    "no_coords_sites": 4,
+    "case_study_cases": 6
+  },
+  "configured_priors": {
+    "TPO": {
+      "anchor": "OG1",
+      "base": "CB",
+      "length": 1.613,
+      "angle": 118.8,
+      "dihedral_atoms": [
+        "CG2",
+        "CB",
+        "OG1",
+        "P"
+      ],
+      "dihedral": -58.9
+    },
+    "SEP": {
+      "anchor": "OG",
+      "base": "CB",
+      "length": 1.614,
+      "angle": 115.4,
+      "dihedral_atoms": [
+        "CA",
+        "CB",
+        "OG",
+        "P"
+      ],
+      "dihedral": 66.3
+    },
+    "PTR": {
+      "anchor": "OH",
+      "base": "CZ",
+      "length": 1.609,
+      "angle": 125.1,
+      "dihedral_atoms": null,
+      "dihedral": null
+    }
+  },
+  "checks": [
+    {
+      "check_id": "result_file:TPO",
+      "passed": true,
+      "message": "Result TSV exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/results/TPO_validation_subset.tsv"
+      }
+    },
+    {
+      "check_id": "result_file:SEP",
+      "passed": true,
+      "message": "Result TSV exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/results/SEP_validation_subset.tsv"
+      }
+    },
+    {
+      "check_id": "result_file:PTR",
+      "passed": true,
+      "message": "Result TSV exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/results/PTR_validation_subset.tsv"
+      }
+    },
+    {
+      "check_id": "archive_case_count",
+      "passed": true,
+      "message": "Every and only selected validation case has an archive.",
+      "details": {
+        "expected": [
+          "case_cdk2_2cch_t160",
+          "case_cdk2_4eoj_t160",
+          "case_erk2_4iza_t185",
+          "case_erk2_4iza_y187",
+          "case_erk2_5v62_t185",
+          "case_erk2_5v62_y187",
+          "control_ptr_2j0l_multi",
+          "control_sep_1uu3_scan_rescue",
+          "control_sep_5n6n_multi",
+          "control_sep_8r27_seed_match",
+          "control_tpo_4bn1_multi",
+          "regression_ptr_2zm3_missing_ref",
+          "regression_sep_1r0z_chain_c",
+          "regression_sep_1r0z_chain_d"
+        ],
+        "observed": [
+          "case_cdk2_2cch_t160",
+          "case_cdk2_4eoj_t160",
+          "case_erk2_4iza_t185",
+          "case_erk2_4iza_y187",
+          "case_erk2_5v62_t185",
+          "case_erk2_5v62_y187",
+          "control_ptr_2j0l_multi",
+          "control_sep_1uu3_scan_rescue",
+          "control_sep_5n6n_multi",
+          "control_sep_8r27_seed_match",
+          "control_tpo_4bn1_multi",
+          "regression_ptr_2zm3_missing_ref",
+          "regression_sep_1r0z_chain_c",
+          "regression_sep_1r0z_chain_d"
+        ]
+      }
+    },
+    {
+      "check_id": "case_study_count",
+      "passed": true,
+      "message": "Manifest contains all six manuscript case-study targets.",
+      "details": {}
+    },
+    {
+      "check_id": "result_rows:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          160
+        ],
+        "observed": [
+          160
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_cdk2_2cch_t160:160",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_cdk2_2cch_t160:160",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "archive_present:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_cdk2_2cch_t160:160",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6129,
+        "expected_length": 1.613,
+        "observed_angle": 118.784,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.883,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "scan_file:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_cdk2_2cch_t160:160",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_cdk2_2cch_t160",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_2cch_t160:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_2cch_t160:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_2cch_t160:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_2cch_t160:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_2cch_t160:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_2cch_t160:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_2cch_t160:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_2cch_t160:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_2cch_t160:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_2cch_t160:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_2cch_t160:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_2cch_t160:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_2cch_t160:160:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.20222,
+        "reported": 0.2022
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_2cch_t160:160:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.03898,
+        "reported": 1.039
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_2cch_t160:160:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.07425,
+        "reported": 1.0743
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_cdk2_2cch_t160:160",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.20222,
+        "recomputed_rank": 1,
+        "reported_best": 0.2022,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          160
+        ],
+        "observed": [
+          160
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_cdk2_4eoj_t160:160",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_cdk2_4eoj_t160:160",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "archive_present:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_cdk2_4eoj_t160:160",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.613,
+        "expected_length": 1.613,
+        "observed_angle": 118.797,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.893,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "scan_file:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_cdk2_4eoj_t160:160",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_cdk2_4eoj_t160",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_4eoj_t160:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_4eoj_t160:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_4eoj_t160:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_4eoj_t160:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_4eoj_t160:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_4eoj_t160:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_4eoj_t160:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_4eoj_t160:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_cdk2_4eoj_t160:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_cdk2_4eoj_t160:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_cdk2_4eoj_t160:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_cdk2_4eoj_t160:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_4eoj_t160:160:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.24649,
+        "reported": 0.2465
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_4eoj_t160:160:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.0151,
+        "reported": 1.0151
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_cdk2_4eoj_t160:160:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.07944,
+        "reported": 1.0794
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_cdk2_4eoj_t160:160",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.24649,
+        "recomputed_rank": 1,
+        "reported_best": 0.2465,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          185
+        ],
+        "observed": [
+          185
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_erk2_4iza_t185:185",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_erk2_4iza_t185:185",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "archive_present:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_erk2_4iza_t185:185",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6129,
+        "expected_length": 1.613,
+        "observed_angle": 118.782,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.91,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "scan_file:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_erk2_4iza_t185:185",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_erk2_4iza_t185",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_t185:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_t185:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_t185:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_t185:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_t185:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_t185:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_t185:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_t185:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_t185:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_t185:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_t185:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_t185:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_t185:185:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.32342,
+        "reported": 0.3234
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_t185:185:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.88751,
+        "reported": 0.8875
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_t185:185:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.2229,
+        "reported": 1.2229
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_erk2_4iza_t185:185",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.32342,
+        "recomputed_rank": 1,
+        "reported_best": 0.3234,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          185
+        ],
+        "observed": [
+          185
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_erk2_5v62_t185:185",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_erk2_5v62_t185:185",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "archive_present:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_erk2_5v62_t185:185",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6134,
+        "expected_length": 1.613,
+        "observed_angle": 118.789,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.918,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "scan_file:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_erk2_5v62_t185:185",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_erk2_5v62_t185",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_t185:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_t185:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_t185:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_t185:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_t185:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_t185:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_t185:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_t185:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_t185:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_t185:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_t185:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_t185:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_t185:185:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.2968,
+        "reported": 0.2968
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_t185:185:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.88084,
+        "reported": 0.8808
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_t185:185:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.26914,
+        "reported": 1.2691
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_erk2_5v62_t185:185",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.2968,
+        "recomputed_rank": 1,
+        "reported_best": 0.2968,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          287,
+          288
+        ],
+        "observed": [
+          287,
+          288
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:control_tpo_4bn1_multi:287",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_tpo_4bn1_multi:287",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "status_ok:control_tpo_4bn1_multi:288",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_tpo_4bn1_multi:288",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "T",
+        "expected": "T"
+      }
+    },
+    {
+      "check_id": "archive_present:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:control_tpo_4bn1_multi:287",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.613,
+        "expected_length": 1.613,
+        "observed_angle": 118.79,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.907,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "seed_geometry:control_tpo_4bn1_multi:288",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6131,
+        "expected_length": 1.613,
+        "observed_angle": 118.797,
+        "expected_angle": 118.8,
+        "observed_dihedral": -58.914,
+        "expected_dihedral": -58.9
+      }
+    },
+    {
+      "check_id": "scan_file:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_tpo_4bn1_multi:287",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_tpo_4bn1_multi:288",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:control_tpo_4bn1_multi",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:control_tpo_4bn1_multi:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_tpo_4bn1_multi:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_tpo_4bn1_multi:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_tpo_4bn1_multi:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_tpo_4bn1_multi:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_tpo_4bn1_multi:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_tpo_4bn1_multi:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_tpo_4bn1_multi:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_tpo_4bn1_multi:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_tpo_4bn1_multi:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_tpo_4bn1_multi:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_tpo_4bn1_multi:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:287:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.34493,
+        "reported": 0.3449
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:287:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.02771,
+        "reported": 1.0277
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:287:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.19755,
+        "reported": 1.1976
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_tpo_4bn1_multi:287",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.34493,
+        "recomputed_rank": 1,
+        "reported_best": 0.3449,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:288:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.86457,
+        "reported": 2.8646
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:288:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 3.29421,
+        "reported": 3.2942
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_tpo_4bn1_multi:288:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.07717,
+        "reported": 2.0772
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_tpo_4bn1_multi:288",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 2.07717,
+        "recomputed_rank": 3,
+        "reported_best": 2.0772,
+        "reported_rank": 3.0
+      }
+    },
+    {
+      "check_id": "result_rows:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          261
+        ],
+        "observed": [
+          261
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:control_sep_8r27_seed_match:261",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_sep_8r27_seed_match:261",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "archive_present:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:control_sep_8r27_seed_match:261",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6136,
+        "expected_length": 1.614,
+        "observed_angle": 115.394,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.306,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "scan_file:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_sep_8r27_seed_match:261",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:control_sep_8r27_seed_match",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:control_sep_8r27_seed_match:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_8r27_seed_match:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_8r27_seed_match:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_8r27_seed_match:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_8r27_seed_match:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_8r27_seed_match:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_8r27_seed_match:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_8r27_seed_match:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_8r27_seed_match:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_8r27_seed_match:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_8r27_seed_match:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_8r27_seed_match:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_8r27_seed_match:261:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.11443,
+        "reported": 0.1144
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_8r27_seed_match:261:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.12821,
+        "reported": 1.1282
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_8r27_seed_match:261:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.13255,
+        "reported": 2.1325
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_sep_8r27_seed_match:261",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.11443,
+        "recomputed_rank": 1,
+        "reported_best": 0.1144,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          241
+        ],
+        "observed": [
+          241
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:control_sep_1uu3_scan_rescue:241",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_sep_1uu3_scan_rescue:241",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "archive_present:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:control_sep_1uu3_scan_rescue:241",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.614,
+        "expected_length": 1.614,
+        "observed_angle": 115.406,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.315,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "scan_file:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_sep_1uu3_scan_rescue:241",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:control_sep_1uu3_scan_rescue",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:control_sep_1uu3_scan_rescue:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_1uu3_scan_rescue:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_1uu3_scan_rescue:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_1uu3_scan_rescue:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_1uu3_scan_rescue:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_1uu3_scan_rescue:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_1uu3_scan_rescue:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_1uu3_scan_rescue:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_1uu3_scan_rescue:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_1uu3_scan_rescue:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_1uu3_scan_rescue:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_1uu3_scan_rescue:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_1uu3_scan_rescue:241:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.22208,
+        "reported": 0.2221
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_1uu3_scan_rescue:241:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.27547,
+        "reported": 1.2755
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_1uu3_scan_rescue:241:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.26464,
+        "reported": 2.2646
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_sep_1uu3_scan_rescue:241",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.22208,
+        "recomputed_rank": 1,
+        "reported_best": 0.2221,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          60,
+          83
+        ],
+        "observed": [
+          60,
+          83
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:control_sep_5n6n_multi:60",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_sep_5n6n_multi:60",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "status_ok:control_sep_5n6n_multi:83",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_sep_5n6n_multi:83",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "archive_present:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:control_sep_5n6n_multi:60",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6139,
+        "expected_length": 1.614,
+        "observed_angle": 115.403,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.304,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:control_sep_5n6n_multi:83",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6139,
+        "expected_length": 1.614,
+        "observed_angle": 115.418,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.304,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "scan_file:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_sep_5n6n_multi:60",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_sep_5n6n_multi:83",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:control_sep_5n6n_multi",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:control_sep_5n6n_multi:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_5n6n_multi:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_5n6n_multi:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_5n6n_multi:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_5n6n_multi:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_5n6n_multi:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_5n6n_multi:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_5n6n_multi:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_sep_5n6n_multi:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_sep_5n6n_multi:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_sep_5n6n_multi:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_sep_5n6n_multi:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:60:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.66334,
+        "reported": 0.6633
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:60:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.68678,
+        "reported": 1.6868
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:60:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.496,
+        "reported": 0.496
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_sep_5n6n_multi:60",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.496,
+        "recomputed_rank": 3,
+        "reported_best": 0.496,
+        "reported_rank": 3.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:83:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.59818,
+        "reported": 0.5982
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:83:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.63395,
+        "reported": 0.634
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_sep_5n6n_multi:83:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.63436,
+        "reported": 1.6344
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_sep_5n6n_multi:83",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.59818,
+        "recomputed_rank": 1,
+        "reported_best": 0.5982,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          422,
+          660,
+          659,
+          670
+        ],
+        "observed": [
+          422,
+          659,
+          660,
+          670
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:regression_sep_1r0z_chain_c:422",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_sep_1r0z_chain_c:422",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "status_ok:regression_sep_1r0z_chain_c:660",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_sep_1r0z_chain_c:660",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "status_no_coords:regression_sep_1r0z_chain_c:659",
+      "passed": true,
+      "message": "Missing experimental phosphate coordinates are reported explicitly without discarding valid neighboring sites.",
+      "details": {
+        "status": "NO_COORDS"
+      }
+    },
+    {
+      "check_id": "status_no_coords:regression_sep_1r0z_chain_c:670",
+      "passed": true,
+      "message": "Missing experimental phosphate coordinates are reported explicitly without discarding valid neighboring sites.",
+      "details": {
+        "status": "NO_COORDS"
+      }
+    },
+    {
+      "check_id": "archive_present:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_c:422",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.614,
+        "expected_length": 1.614,
+        "observed_angle": 115.389,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.307,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_c:660",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6141,
+        "expected_length": 1.614,
+        "observed_angle": 115.389,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.305,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_c:659",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.614,
+        "expected_length": 1.614,
+        "observed_angle": 115.381,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.305,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_c:670",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6142,
+        "expected_length": 1.614,
+        "observed_angle": 115.393,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.313,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "scan_file:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_c:422",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_c:660",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_c:659",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_c:670",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:regression_sep_1r0z_chain_c",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_c:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_c:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_c:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_c:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_c:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_c:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_c:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_c:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_c:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_c:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_c:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_c:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:422:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.45635,
+        "reported": 1.4563
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:422:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.24298,
+        "reported": 1.243
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:422:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.50094,
+        "reported": 1.5009
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_sep_1r0z_chain_c:422",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 1.24298,
+        "recomputed_rank": 2,
+        "reported_best": 1.243,
+        "reported_rank": 2.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:660:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.8858,
+        "reported": 2.8858
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:660:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.17931,
+        "reported": 2.1793
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_c:660:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.28537,
+        "reported": 1.2854
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_sep_1r0z_chain_c:660",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 1.28537,
+        "recomputed_rank": 3,
+        "reported_best": 1.2854,
+        "reported_rank": 3.0
+      }
+    },
+    {
+      "check_id": "result_rows:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          660,
+          670,
+          659
+        ],
+        "observed": [
+          659,
+          660,
+          670
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:regression_sep_1r0z_chain_d:660",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_sep_1r0z_chain_d:660",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "status_ok:regression_sep_1r0z_chain_d:670",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_sep_1r0z_chain_d:670",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "S",
+        "expected": "S"
+      }
+    },
+    {
+      "check_id": "status_no_coords:regression_sep_1r0z_chain_d:659",
+      "passed": true,
+      "message": "Missing experimental phosphate coordinates are reported explicitly without discarding valid neighboring sites.",
+      "details": {
+        "status": "NO_COORDS"
+      }
+    },
+    {
+      "check_id": "archive_present:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_d:660",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6139,
+        "expected_length": 1.614,
+        "observed_angle": 115.389,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.283,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_d:670",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6138,
+        "expected_length": 1.614,
+        "observed_angle": 115.407,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.286,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_sep_1r0z_chain_d:659",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6142,
+        "expected_length": 1.614,
+        "observed_angle": 115.389,
+        "expected_angle": 115.4,
+        "observed_dihedral": 66.309,
+        "expected_dihedral": 66.3
+      }
+    },
+    {
+      "check_id": "scan_file:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_d:660",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_d:670",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_sep_1r0z_chain_d:659",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:regression_sep_1r0z_chain_d",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_d:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_d:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_d:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_d:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_d:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_d:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_d:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_d:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_sep_1r0z_chain_d:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_sep_1r0z_chain_d:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_sep_1r0z_chain_d:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_sep_1r0z_chain_d:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:660:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.5447,
+        "reported": 1.5447
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:660:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.43764,
+        "reported": 2.4376
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:660:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.69489,
+        "reported": 0.6949
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_sep_1r0z_chain_d:660",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.69489,
+        "recomputed_rank": 3,
+        "reported_best": 0.6949,
+        "reported_rank": 3.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:670:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.50273,
+        "reported": 0.5027
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:670:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.86061,
+        "reported": 0.8606
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_sep_1r0z_chain_d:670:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.81856,
+        "reported": 1.8186
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_sep_1r0z_chain_d:670",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.50273,
+        "recomputed_rank": 1,
+        "reported_best": 0.5027,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          187
+        ],
+        "observed": [
+          187
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_erk2_4iza_y187:187",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_erk2_4iza_y187:187",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "archive_present:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_erk2_4iza_y187:187",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.609,
+        "expected_length": 1.609,
+        "observed_angle": 125.112,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "scan_file:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_erk2_4iza_y187:187",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_erk2_4iza_y187",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_y187:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_y187:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_y187:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_y187:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_y187:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_y187:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_y187:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_y187:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_4iza_y187:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_4iza_y187:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_4iza_y187:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_4iza_y187:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_y187:187:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.9385,
+        "reported": 0.9385
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_y187:187:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.8638,
+        "reported": 1.8638
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_4iza_y187:187:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.67233,
+        "reported": 2.6723
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_erk2_4iza_y187:187",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.9385,
+        "recomputed_rank": 1,
+        "reported_best": 0.9385,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          187
+        ],
+        "observed": [
+          187
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:case_erk2_5v62_y187:187",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:case_erk2_5v62_y187:187",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "archive_present:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:case_erk2_5v62_y187:187",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6093,
+        "expected_length": 1.609,
+        "observed_angle": 125.102,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "scan_file:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:case_erk2_5v62_y187:187",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:case_erk2_5v62_y187",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_y187:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_y187:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_y187:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_y187:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_y187:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_y187:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_y187:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_y187:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:case_erk2_5v62_y187:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:case_erk2_5v62_y187:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:case_erk2_5v62_y187:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:case_erk2_5v62_y187:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_y187:187:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.81598,
+        "reported": 0.816
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_y187:187:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.70409,
+        "reported": 1.7041
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:case_erk2_5v62_y187:187:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.51097,
+        "reported": 0.511
+      }
+    },
+    {
+      "check_id": "top3_minimum:case_erk2_5v62_y187:187",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.51097,
+        "recomputed_rank": 3,
+        "reported_best": 0.511,
+        "reported_rank": 3.0
+      }
+    },
+    {
+      "check_id": "result_rows:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          576,
+          577
+        ],
+        "observed": [
+          576,
+          577
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:control_ptr_2j0l_multi:576",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_ptr_2j0l_multi:576",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "status_ok:control_ptr_2j0l_multi:577",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:control_ptr_2j0l_multi:577",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "archive_present:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:control_ptr_2j0l_multi:576",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.609,
+        "expected_length": 1.609,
+        "observed_angle": 125.1,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "seed_geometry:control_ptr_2j0l_multi:577",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6085,
+        "expected_length": 1.609,
+        "observed_angle": 125.108,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "scan_file:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_ptr_2j0l_multi:576",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:control_ptr_2j0l_multi:577",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:control_ptr_2j0l_multi",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:control_ptr_2j0l_multi:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_ptr_2j0l_multi:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_ptr_2j0l_multi:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_ptr_2j0l_multi:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_ptr_2j0l_multi:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_ptr_2j0l_multi:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_ptr_2j0l_multi:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_ptr_2j0l_multi:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:control_ptr_2j0l_multi:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:control_ptr_2j0l_multi:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:control_ptr_2j0l_multi:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:control_ptr_2j0l_multi:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:576:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.52543,
+        "reported": 1.5254
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:576:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.73183,
+        "reported": 0.7318
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:576:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.84006,
+        "reported": 0.8401
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_ptr_2j0l_multi:576",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.73183,
+        "recomputed_rank": 2,
+        "reported_best": 0.7318,
+        "reported_rank": 2.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:577:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.62213,
+        "reported": 0.6221
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:577:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 3.29305,
+        "reported": 3.2931
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:control_ptr_2j0l_multi:577:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.93054,
+        "reported": 2.9305
+      }
+    },
+    {
+      "check_id": "top3_minimum:control_ptr_2j0l_multi:577",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.62213,
+        "recomputed_rank": 1,
+        "reported_best": 0.6221,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "result_rows:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Result TSV contains exactly the expected target positions for this case.",
+      "details": {
+        "expected": [
+          1165,
+          1166,
+          1161
+        ],
+        "observed": [
+          1161,
+          1165,
+          1166
+        ]
+      }
+    },
+    {
+      "check_id": "status_ok:regression_ptr_2zm3_missing_ref:1165",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_ptr_2zm3_missing_ref:1165",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "status_ok:regression_ptr_2zm3_missing_ref:1166",
+      "passed": true,
+      "message": "Site has a successful benchmark result.",
+      "details": {
+        "status": "OK"
+      }
+    },
+    {
+      "check_id": "restype:regression_ptr_2zm3_missing_ref:1166",
+      "passed": true,
+      "message": "Reported target residue type matches the benchmark group.",
+      "details": {
+        "restype": "Y",
+        "expected": "Y"
+      }
+    },
+    {
+      "check_id": "status_no_coords:regression_ptr_2zm3_missing_ref:1161",
+      "passed": true,
+      "message": "Missing experimental phosphate coordinates are reported explicitly without discarding valid neighboring sites.",
+      "details": {
+        "status": "NO_COORDS"
+      }
+    },
+    {
+      "check_id": "archive_present:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Per-case archive directory exists.",
+      "details": {}
+    },
+    {
+      "check_id": "stage_files:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Reference, stripped, Stage 0, Stage 1, Stage 2, and Stage 3 structures are archived.",
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "check_id": "stripped:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Experimental phosphate atoms are absent from every stripped target residue.",
+      "details": {}
+    },
+    {
+      "check_id": "seed_geometry:regression_ptr_2zm3_missing_ref:1165",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6087,
+        "expected_length": 1.609,
+        "observed_angle": 125.091,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_ptr_2zm3_missing_ref:1166",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6088,
+        "expected_length": 1.609,
+        "observed_angle": 125.117,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "seed_geometry:regression_ptr_2zm3_missing_ref:1161",
+      "passed": true,
+      "message": "Stage 0 reproduces the configured residue-specific internal-coordinate prior.",
+      "details": {
+        "observed_length": 1.6086,
+        "expected_length": 1.609,
+        "observed_angle": 125.086,
+        "expected_angle": 125.1,
+        "observed_dihedral": null,
+        "expected_dihedral": null
+      }
+    },
+    {
+      "check_id": "scan_file:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Labeled 12-angle prescan archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/prescan_frames_labeled.json"
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_ptr_2zm3_missing_ref:1165",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_ptr_2zm3_missing_ref:1166",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "scan_12x30:regression_ptr_2zm3_missing_ref:1161",
+      "passed": true,
+      "message": "Prescan contains exactly 12 orientations at 30-degree increments.",
+      "details": {
+        "observed_angles": [
+          0.0,
+          30.0,
+          60.0,
+          90.0,
+          120.0,
+          150.0,
+          180.0,
+          210.0,
+          240.0,
+          270.0,
+          300.0,
+          330.0
+        ]
+      }
+    },
+    {
+      "check_id": "top3_metadata:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Top-3 rank metadata archive exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/top3_ranked_poses.json"
+      }
+    },
+    {
+      "check_id": "independent_definition:regression_ptr_2zm3_missing_ref",
+      "passed": true,
+      "message": "Archive explicitly defines the three outputs as independently minimized rank-matched prescan candidates.",
+      "details": {
+        "definition": "three independently minimized rank-matched prescan candidates"
+      }
+    },
+    {
+      "check_id": "rank_structure:regression_ptr_2zm3_missing_ref:1",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/phosphoFill1.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_ptr_2zm3_missing_ref:1",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/graft_report_rank1.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_ptr_2zm3_missing_ref:1",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_ptr_2zm3_missing_ref:1",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_ptr_2zm3_missing_ref:2",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/phosphoFill2.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_ptr_2zm3_missing_ref:2",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/graft_report_rank2.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_ptr_2zm3_missing_ref:2",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_ptr_2zm3_missing_ref:2",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rank_structure:regression_ptr_2zm3_missing_ref:3",
+      "passed": true,
+      "message": "Independently minimized rank structure exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/phosphoFill3.cif"
+      }
+    },
+    {
+      "check_id": "rank_report:regression_ptr_2zm3_missing_ref:3",
+      "passed": true,
+      "message": "Rank-specific OpenMM graft report exists.",
+      "details": {
+        "path": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint/stage3/graft_report_rank3.tsv"
+      }
+    },
+    {
+      "check_id": "rank_openmm:regression_ptr_2zm3_missing_ref:3",
+      "passed": true,
+      "message": "Rank-specific report confirms successful OpenMM minimization.",
+      "details": {
+        "relax_status": [
+          "OK",
+          "OK",
+          "OK"
+        ],
+        "relax_backend": [
+          "openmm_local",
+          "openmm_local",
+          "openmm_local"
+        ]
+      }
+    },
+    {
+      "check_id": "rank_postmin_flag:regression_ptr_2zm3_missing_ref:3",
+      "passed": true,
+      "message": "Rank metadata marks the structure as post-minimization.",
+      "details": {}
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1165:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.26266,
+        "reported": 0.2627
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1165:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.99181,
+        "reported": 0.9918
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1165:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.08895,
+        "reported": 1.089
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_ptr_2zm3_missing_ref:1165",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.26266,
+        "recomputed_rank": 1,
+        "reported_best": 0.2627,
+        "reported_rank": 1.0
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1166:1",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 1.38978,
+        "reported": 1.3898
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1166:2",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 0.4763,
+        "reported": 0.4763
+      }
+    },
+    {
+      "check_id": "rmsd_recompute:regression_ptr_2zm3_missing_ref:1166:3",
+      "passed": true,
+      "message": "Permutation-invariant phosphate RMSD recomputes from the archived rank structure and experimental coordinates.",
+      "details": {
+        "recomputed": 2.26832,
+        "reported": 2.2683
+      }
+    },
+    {
+      "check_id": "top3_minimum:regression_ptr_2zm3_missing_ref:1166",
+      "passed": true,
+      "message": "top3_best_postmin_rmsd is the minimum of the three independently minimized rank RMSDs.",
+      "details": {
+        "recomputed_best": 0.4763,
+        "recomputed_rank": 2,
+        "reported_best": 0.4763,
+        "reported_rank": 2.0
+      }
+    },
+    {
+      "check_id": "site_count",
+      "passed": true,
+      "message": "Observed result-site count matches the manifest.",
+      "details": {
+        "expected": 24,
+        "observed": 24
+      }
+    },
+    {
+      "check_id": "ok_count",
+      "passed": true,
+      "message": "Successful site count matches the manifest.",
+      "details": {
+        "expected": 20,
+        "observed": 20
+      }
+    },
+    {
+      "check_id": "no_coords_count",
+      "passed": true,
+      "message": "NO_COORDS site count matches the manifest.",
+      "details": {
+        "expected": 4,
+        "observed": 4
+      }
+    }
+  ],
+  "sites": [
+    {
+      "case_id": "case_cdk2_2cch_t160",
+      "case_study": true,
+      "primary_type": "TPO",
+      "pdb_id": "2CCH",
+      "chain": "A",
+      "position": 160,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.2022,
+      "rank2_postmin_rmsd": 1.039,
+      "rank3_postmin_rmsd": 1.0743,
+      "top3_best_postmin_rmsd": 0.2022,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint"
+    },
+    {
+      "case_id": "case_cdk2_4eoj_t160",
+      "case_study": true,
+      "primary_type": "TPO",
+      "pdb_id": "4EOJ",
+      "chain": "A",
+      "position": 160,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.2465,
+      "rank2_postmin_rmsd": 1.0151,
+      "rank3_postmin_rmsd": 1.0794,
+      "top3_best_postmin_rmsd": 0.2465,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__4eoj__A__target-160__ctx-160__mode-joint"
+    },
+    {
+      "case_id": "case_erk2_4iza_t185",
+      "case_study": true,
+      "primary_type": "TPO",
+      "pdb_id": "4IZA",
+      "chain": "A",
+      "position": 185,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.3234,
+      "rank2_postmin_rmsd": 0.8875,
+      "rank3_postmin_rmsd": 1.2229,
+      "top3_best_postmin_rmsd": 0.3234,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-185__ctx-185__mode-joint"
+    },
+    {
+      "case_id": "case_erk2_5v62_t185",
+      "case_study": true,
+      "primary_type": "TPO",
+      "pdb_id": "5V62",
+      "chain": "A",
+      "position": 185,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.2968,
+      "rank2_postmin_rmsd": 0.8808,
+      "rank3_postmin_rmsd": 1.2691,
+      "top3_best_postmin_rmsd": 0.2968,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint"
+    },
+    {
+      "case_id": "control_tpo_4bn1_multi",
+      "case_study": false,
+      "primary_type": "TPO",
+      "pdb_id": "4BN1",
+      "chain": "A",
+      "position": 287,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.3449,
+      "rank2_postmin_rmsd": 1.0277,
+      "rank3_postmin_rmsd": 1.1976,
+      "top3_best_postmin_rmsd": 0.3449,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint"
+    },
+    {
+      "case_id": "control_tpo_4bn1_multi",
+      "case_study": false,
+      "primary_type": "TPO",
+      "pdb_id": "4BN1",
+      "chain": "A",
+      "position": 288,
+      "status": "OK",
+      "rank1_postmin_rmsd": 2.8646,
+      "rank2_postmin_rmsd": 3.2942,
+      "rank3_postmin_rmsd": 2.0772,
+      "top3_best_postmin_rmsd": 2.0772,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/O14965__4bn1__A__target-287_288__ctx-287_288__mode-joint"
+    },
+    {
+      "case_id": "control_sep_8r27_seed_match",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "8R27",
+      "chain": "A",
+      "position": 261,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.1144,
+      "rank2_postmin_rmsd": 1.1282,
+      "rank3_postmin_rmsd": 2.1325,
+      "top3_best_postmin_rmsd": 0.1144,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P11309__8r27__A__target-261__ctx-261__mode-joint"
+    },
+    {
+      "case_id": "control_sep_1uu3_scan_rescue",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1UU3",
+      "chain": "A",
+      "position": 241,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.2221,
+      "rank2_postmin_rmsd": 1.2755,
+      "rank3_postmin_rmsd": 2.2646,
+      "top3_best_postmin_rmsd": 0.2221,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/O15530__1uu3__A__target-241__ctx-241__mode-joint"
+    },
+    {
+      "case_id": "control_sep_5n6n_multi",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "5N6N",
+      "chain": "C",
+      "position": 60,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.6633,
+      "rank2_postmin_rmsd": 1.6868,
+      "rank3_postmin_rmsd": 0.496,
+      "top3_best_postmin_rmsd": 0.496,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint"
+    },
+    {
+      "case_id": "control_sep_5n6n_multi",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "5N6N",
+      "chain": "C",
+      "position": 83,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.5982,
+      "rank2_postmin_rmsd": 0.634,
+      "rank3_postmin_rmsd": 1.6344,
+      "top3_best_postmin_rmsd": 0.5982,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P32356__5n6n__C__target-60_83__ctx-60_83__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_c",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "C",
+      "position": 422,
+      "status": "OK",
+      "rank1_postmin_rmsd": 1.4563,
+      "rank2_postmin_rmsd": 1.243,
+      "rank3_postmin_rmsd": 1.5009,
+      "top3_best_postmin_rmsd": 1.243,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_c",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "C",
+      "position": 660,
+      "status": "OK",
+      "rank1_postmin_rmsd": 2.8858,
+      "rank2_postmin_rmsd": 2.1793,
+      "rank3_postmin_rmsd": 1.2854,
+      "top3_best_postmin_rmsd": 1.2854,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_c",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "C",
+      "position": 659,
+      "status": "NO_COORDS",
+      "rank1_postmin_rmsd": null,
+      "rank2_postmin_rmsd": null,
+      "rank3_postmin_rmsd": null,
+      "top3_best_postmin_rmsd": null,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_c",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "C",
+      "position": 670,
+      "status": "NO_COORDS",
+      "rank1_postmin_rmsd": null,
+      "rank2_postmin_rmsd": null,
+      "rank3_postmin_rmsd": null,
+      "top3_best_postmin_rmsd": null,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__C__target-422_659_660_670__ctx-422_659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_d",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "D",
+      "position": 660,
+      "status": "OK",
+      "rank1_postmin_rmsd": 1.5447,
+      "rank2_postmin_rmsd": 2.4376,
+      "rank3_postmin_rmsd": 0.6949,
+      "top3_best_postmin_rmsd": 0.6949,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_d",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "D",
+      "position": 670,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.5027,
+      "rank2_postmin_rmsd": 0.8606,
+      "rank3_postmin_rmsd": 1.8186,
+      "top3_best_postmin_rmsd": 0.5027,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint"
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_d",
+      "case_study": false,
+      "primary_type": "SEP",
+      "pdb_id": "1R0Z",
+      "chain": "D",
+      "position": 659,
+      "status": "NO_COORDS",
+      "rank1_postmin_rmsd": null,
+      "rank2_postmin_rmsd": null,
+      "rank3_postmin_rmsd": null,
+      "top3_best_postmin_rmsd": null,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/SEP/mode-joint__w-0.0__pack-0.2/P26361__1r0z__D__target-659_660_670__ctx-659_660_670__mode-joint"
+    },
+    {
+      "case_id": "case_erk2_4iza_y187",
+      "case_study": true,
+      "primary_type": "PTR",
+      "pdb_id": "4IZA",
+      "chain": "A",
+      "position": 187,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.9385,
+      "rank2_postmin_rmsd": 1.8638,
+      "rank3_postmin_rmsd": 2.6723,
+      "top3_best_postmin_rmsd": 0.9385,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__4iza__A__target-187__ctx-187__mode-joint"
+    },
+    {
+      "case_id": "case_erk2_5v62_y187",
+      "case_study": true,
+      "primary_type": "PTR",
+      "pdb_id": "5V62",
+      "chain": "A",
+      "position": 187,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.816,
+      "rank2_postmin_rmsd": 1.7041,
+      "rank3_postmin_rmsd": 0.511,
+      "top3_best_postmin_rmsd": 0.511,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-187__ctx-187__mode-joint"
+    },
+    {
+      "case_id": "control_ptr_2j0l_multi",
+      "case_study": false,
+      "primary_type": "PTR",
+      "pdb_id": "2J0L",
+      "chain": "A",
+      "position": 576,
+      "status": "OK",
+      "rank1_postmin_rmsd": 1.5254,
+      "rank2_postmin_rmsd": 0.7318,
+      "rank3_postmin_rmsd": 0.8401,
+      "top3_best_postmin_rmsd": 0.7318,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint"
+    },
+    {
+      "case_id": "control_ptr_2j0l_multi",
+      "case_study": false,
+      "primary_type": "PTR",
+      "pdb_id": "2J0L",
+      "chain": "A",
+      "position": 577,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.6221,
+      "rank2_postmin_rmsd": 3.2931,
+      "rank3_postmin_rmsd": 2.9305,
+      "top3_best_postmin_rmsd": 0.6221,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/Q00944__2j0l__A__target-576_577__ctx-576_577__mode-joint"
+    },
+    {
+      "case_id": "regression_ptr_2zm3_missing_ref",
+      "case_study": false,
+      "primary_type": "PTR",
+      "pdb_id": "2ZM3",
+      "chain": "A",
+      "position": 1165,
+      "status": "OK",
+      "rank1_postmin_rmsd": 0.2627,
+      "rank2_postmin_rmsd": 0.9918,
+      "rank3_postmin_rmsd": 1.089,
+      "top3_best_postmin_rmsd": 0.2627,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint"
+    },
+    {
+      "case_id": "regression_ptr_2zm3_missing_ref",
+      "case_study": false,
+      "primary_type": "PTR",
+      "pdb_id": "2ZM3",
+      "chain": "A",
+      "position": 1166,
+      "status": "OK",
+      "rank1_postmin_rmsd": 1.3898,
+      "rank2_postmin_rmsd": 0.4763,
+      "rank3_postmin_rmsd": 2.2683,
+      "top3_best_postmin_rmsd": 0.4763,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint"
+    },
+    {
+      "case_id": "regression_ptr_2zm3_missing_ref",
+      "case_study": false,
+      "primary_type": "PTR",
+      "pdb_id": "2ZM3",
+      "chain": "A",
+      "position": 1161,
+      "status": "NO_COORDS",
+      "rank1_postmin_rmsd": null,
+      "rank2_postmin_rmsd": null,
+      "rank3_postmin_rmsd": null,
+      "top3_best_postmin_rmsd": null,
+      "archive_case_dir": "/mnt/c/Users/drpat/OneDrive - UGent/Desktop/PD/Phospho-fill/Benchmarkv2/PhosphoFill-gihub/Benchmark/validation_structure_subset/outputs/archives/PTR/mode-joint__w-0.0__pack-0.2/P08069__2zm3__A__target-1161_1165_1166__ctx-1161_1165_1166__mode-joint"
+    }
+  ]
+}

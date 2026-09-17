@@ -1,0 +1,13 @@
+subset	expected_residue	raw_rows	status_ok	status_ok_actual_match	excluded_wrong_actual	excluded_bad_status
+mod_context_audit_all	TPO	512	511	508	3	1
+mod_context_audit_all	SEP	391	388	388	0	3
+mod_context_audit_all	PTR	503	501	501	0	2
+mod_context_audit_single	TPO	280	279	276	3	1
+mod_context_audit_single	SEP	228	228	228	0	0
+mod_context_audit_single	PTR	209	208	208	0	1
+unmod_context_audit_all	THR	1219	1199	1185	14	20
+unmod_context_audit_all	SER	1212	1204	1204	0	8
+unmod_context_audit_all	TYR	2183	2126	2124	2	57
+unmod_context_audit_single	THR	515	504	490	14	11
+unmod_context_audit_single	SER	718	714	714	0	4
+unmod_context_audit_single	TYR	600	567	565	2	33

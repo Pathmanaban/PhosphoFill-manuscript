@@ -1,0 +1,23 @@
+\begin{table}[h!]
+\caption{Strip-and-regraft validation stratified by the number of phosphosites in each structure. Top-3 best is the minimum RMSD across three independently minimised ranked output poses.}
+\label{tab:multisite}
+\centering
+\small
+\begin{tabularx}{\textwidth}{l l c c c c c}
+\toprule
+\textbf{Type} & \textbf{Context} & \textbf{$n$} & \textbf{Top-1 median} & \textbf{Top-3 median} & \textbf{Top-1 $\leq$1.0} & \textbf{Top-3 $\leq$1.5} \\
+\midrule
+TPO & single & 332 & 0.42 & 0.42 & 77.4\% & 96.4\% \\
+TPO & 2 sites & 145 & 1.04 & 0.62 & 47.6\% & 91.0\% \\
+TPO & 3+ sites & 17 & 1.24 & 0.58 & 17.6\% & 88.2\% \\
+\addlinespace
+SEP & single & 241 & 0.55 & 0.47 & 70.1\% & 96.3\% \\
+SEP & 2 sites & 35 & 0.97 & 0.61 & 51.4\% & 88.6\% \\
+SEP & 3+ sites & 24 & 1.08 & 0.48 & 50.0\% & 95.8\% \\
+\addlinespace
+PTR & single & 217 & 1.02 & 0.61 & 47.0\% & 90.3\% \\
+PTR & 2 sites & 268 & 1.03 & 0.61 & 48.9\% & 85.4\% \\
+PTR & 3+ sites & 5 & 1.36 & 0.87 & 40.0\% & 100.0\% \\
+\bottomrule
+\end{tabularx}
+\end{table}

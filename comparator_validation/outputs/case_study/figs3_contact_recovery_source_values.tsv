@@ -1,0 +1,91 @@
+panel	metric	protein	site_label	case_id	pdb_id	tool	variant	recovered	total	percent_recovered	display_variant
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill top1	8	8	100.0	PhosphoFill top-1
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill best-of-3	8	8	100.0	PhosphoFill best-of-3
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs default	6	8	75.0	PyTMs default
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs optimized	5	8	62.5	PyTMs optimised
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PTM-Psi	PTM-Psi	5	8	62.5	PTM-Psi
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill top1	9	9	100.0	PhosphoFill top-1
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill best-of-3	9	9	100.0	PhosphoFill best-of-3
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs default	7	9	77.77777777777779	PyTMs default
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs optimized	7	9	77.77777777777779	PyTMs optimised
+a	5A_environment	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PTM-Psi	PTM-Psi	5	9	55.55555555555556	PTM-Psi
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill top1	8	9	88.88888888888889	PhosphoFill top-1
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	8	9	88.88888888888889	PhosphoFill best-of-3
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs default	6	9	66.66666666666666	PyTMs default
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs optimized	6	9	66.66666666666666	PyTMs optimised
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PTM-Psi	PTM-Psi	5	9	55.55555555555556	PTM-Psi
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill top1	7	7	100.0	PhosphoFill top-1
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	7	7	100.0	PhosphoFill best-of-3
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs default	4	7	57.14285714285714	PyTMs default
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs optimized	7	7	100.0	PyTMs optimised
+a	5A_environment	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PTM-Psi	PTM-Psi	4	7	57.14285714285714	PTM-Psi
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill top1	6	6	100.0	PhosphoFill top-1
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	6	6	100.0	PhosphoFill best-of-3
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs default	6	6	100.0	PyTMs default
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs optimized	3	6	50.0	PyTMs optimised
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PTM-Psi	PTM-Psi	5	6	83.33333333333334	PTM-Psi
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill top1	4	4	100.0	PhosphoFill top-1
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	3	4	75.0	PhosphoFill best-of-3
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs default	2	4	50.0	PyTMs default
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs optimized	4	4	100.0	PyTMs optimised
+a	5A_environment	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PTM-Psi	PTM-Psi	0	4	0.0	PTM-Psi
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill top1	3	3	100.0	PhosphoFill top-1
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill best-of-3	3	3	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs default	2	3	66.66666666666666	PyTMs default
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs optimized	1	3	33.33333333333333	PyTMs optimised
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PTM-Psi	PTM-Psi	3	3	100.0	PTM-Psi
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill top1	3	3	100.0	PhosphoFill top-1
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill best-of-3	3	3	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs default	2	3	66.66666666666666	PyTMs default
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs optimized	2	3	66.66666666666666	PyTMs optimised
+b	4A_basic_residue	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PTM-Psi	PTM-Psi	3	3	100.0	PTM-Psi
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill top1	2	2	100.0	PhosphoFill top-1
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	2	2	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs default	2	2	100.0	PyTMs default
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs optimized	1	2	50.0	PyTMs optimised
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PTM-Psi	PTM-Psi	2	2	100.0	PTM-Psi
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill top1	3	3	100.0	PhosphoFill top-1
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	3	3	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs default	2	3	66.66666666666666	PyTMs default
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs optimized	3	3	100.0	PyTMs optimised
+b	4A_basic_residue	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PTM-Psi	PTM-Psi	2	3	66.66666666666666	PTM-Psi
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill top1	2	2	100.0	PhosphoFill top-1
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	2	2	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs default	2	2	100.0	PyTMs default
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs optimized	1	2	50.0	PyTMs optimised
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PTM-Psi	PTM-Psi	0	2	0.0	PTM-Psi
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill top1	2	2	100.0	PhosphoFill top-1
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	2	2	100.0	PhosphoFill best-of-3
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs default	0	2	0.0	PyTMs default
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs optimized	2	2	100.0	PyTMs optimised
+b	4A_basic_residue	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PTM-Psi	PTM-Psi	0	2	0.0	PTM-Psi
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill top1	6	6	100.0	PhosphoFill top-1
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PhosphoFill	PhosphoFill best-of-3	6	6	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs default	3	6	50.0	PyTMs default
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PyTMs	PyTMs optimized	1	6	16.66666666666666	PyTMs optimised
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 2CCH	2cch	PTM-Psi	PTM-Psi	4	6	66.66666666666666	PTM-Psi
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill top1	6	6	100.0	PhosphoFill top-1
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PhosphoFill	PhosphoFill best-of-3	6	6	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs default	4	6	66.66666666666666	PyTMs default
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PyTMs	PyTMs optimized	3	6	50.0	PyTMs optimised
+c	4A_donor_atom	CDK2	CDK2 pThr160	CDK2 TPO 160 4EOJ	4eoj	PTM-Psi	PTM-Psi	4	6	66.66666666666666	PTM-Psi
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill top1	3	3	100.0	PhosphoFill top-1
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	3	3	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs default	3	3	100.0	PyTMs default
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PyTMs	PyTMs optimized	1	3	33.33333333333333	PyTMs optimised
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 4IZA	4iza	PTM-Psi	PTM-Psi	3	3	100.0	PTM-Psi
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill top1	5	5	100.0	PhosphoFill top-1
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	5	5	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs default	4	5	80.0	PyTMs default
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PyTMs	PyTMs optimized	5	5	100.0	PyTMs optimised
+c	4A_donor_atom	ERK2	ERK2 pThr185	ERK2 TPO 185 5V62	5v62	PTM-Psi	PTM-Psi	3	5	60.0	PTM-Psi
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill top1	3	3	100.0	PhosphoFill top-1
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PhosphoFill	PhosphoFill best-of-3	3	3	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs default	3	3	100.0	PyTMs default
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PyTMs	PyTMs optimized	1	3	33.33333333333333	PyTMs optimised
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 4IZA	4iza	PTM-Psi	PTM-Psi	0	3	0.0	PTM-Psi
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill top1	4	4	100.0	PhosphoFill top-1
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PhosphoFill	PhosphoFill best-of-3	4	4	100.0	PhosphoFill best-of-3
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs default	0	4	0.0	PyTMs default
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PyTMs	PyTMs optimized	4	4	100.0	PyTMs optimised
+c	4A_donor_atom	ERK2	ERK2 pTyr187	ERK2 PTR 187 5V62	5v62	PTM-Psi	PTM-Psi	0	4	0.0	PTM-Psi

@@ -1,0 +1,7 @@
+case_id	pdb_id	site_label	pymol_script
+CDK2 TPO 160 2CCH	2cch	CDK2 pThr160	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\CDK2_TPO_160_2CCH.pml
+CDK2 TPO 160 4EOJ	4eoj	CDK2 pThr160	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\CDK2_TPO_160_4EOJ.pml
+ERK2 TPO 185 4IZA	4iza	ERK2 pThr185	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\ERK2_TPO_185_4IZA.pml
+ERK2 TPO 185 5V62	5v62	ERK2 pThr185	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\ERK2_TPO_185_5V62.pml
+ERK2 PTR 187 4IZA	4iza	ERK2 pTyr187	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\ERK2_PTR_187_4IZA.pml
+ERK2 PTR 187 5V62	5v62	ERK2 pTyr187	C:\Users\drpat\OneDrive - UGent\Desktop\PD\Phospho-fill\Benchmarkv2\PhosphoFill-gihub\Benchmark\comparator_validation\outputs\case_study\pymol\ERK2_PTR_187_5V62.pml

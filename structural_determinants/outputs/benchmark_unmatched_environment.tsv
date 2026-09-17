@@ -1,0 +1,16 @@
+acc_key	pdb_key	chain_key	position_key	restype_3	benchmark_case_key	status	actual_resname	unmatched_reason
+O94804	6hxf	D	185	TPO	row-91__mode-joint__w-0.0__pack-0.2			no_audit_record
+P28482	6oph	A	185	TPO	row-216__mode-joint__w-0.0__pack-0.2	ok	PTR	actual_residue_does_not_match_expected
+P28482	8u8j	A	185	TPO	row-218__mode-joint__w-0.0__pack-0.2	ok	PTR	actual_residue_does_not_match_expected
+P28482	8u8k	A	185	TPO	row-219__mode-joint__w-0.0__pack-0.2	ok	PTR	actual_residue_does_not_match_expected
+Q9NWZ3	2oib	B	345	TPO	row-356__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	2oic	B	345	TPO	row-358__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	2oid	B	345	TPO	row-360__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	4rmz	B	345	TPO	row-362__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	6f3g	B	345	TPO	row-379__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	6o95	D	345	TPO	row-387__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	7qg3	B	345	TPO	row-398__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	8ucb	C	345	TPO	row-405__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q9NWZ3	8ucc	B	345	TPO	row-407__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q04759	5f9e	B	695	SEP	row-231__mode-joint__w-0.0__pack-0.2			no_audit_record
+Q79V60	7dy1	D	431	SEP	row-247__mode-joint__w-0.0__pack-0.2			no_audit_record

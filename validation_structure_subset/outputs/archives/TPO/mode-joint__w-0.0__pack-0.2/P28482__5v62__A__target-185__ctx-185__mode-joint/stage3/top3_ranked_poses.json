@@ -1,0 +1,124 @@
+{
+  "definition": "three independently minimized rank-matched prescan candidates",
+  "paths": {
+    "phosphoFill1": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill1.cif",
+    "phosphoFill2": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill2.cif",
+    "phosphoFill3": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/phosphoFill3.cif"
+  },
+  "structures": {
+    "phosphoFill1": {
+      "rank": 1,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "185": {
+          "coords": {
+            "P": [
+              1.612,
+              6.155,
+              27.804
+            ],
+            "O1P": [
+              2.515,
+              6.795,
+              26.815
+            ],
+            "O2P": [
+              0.604,
+              5.202,
+              27.039
+            ],
+            "O3P": [
+              0.777,
+              7.277,
+              28.608
+            ]
+          },
+          "phosphate_rmsd": 0.2968,
+          "phosphate_rmsd_named": 1.8012,
+          "p_displacement": 0.1869,
+          "pred_torsion": 119.62,
+          "torsion_error_deg": 5.6
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank1.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank1.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank1.json"
+    },
+    "phosphoFill2": {
+      "rank": 2,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "185": {
+          "coords": {
+            "P": [
+              1.183,
+              6.112,
+              28.395
+            ],
+            "O1P": [
+              1.57,
+              7.26,
+              27.538
+            ],
+            "O2P": [
+              0.212,
+              5.163,
+              27.577
+            ],
+            "O3P": [
+              0.424,
+              6.633,
+              29.72
+            ]
+          },
+          "phosphate_rmsd": 0.8808,
+          "phosphate_rmsd_named": 1.9281,
+          "p_displacement": 0.6015,
+          "pred_torsion": 119.65,
+          "torsion_error_deg": 5.69
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank2.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank2.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank2.json"
+    },
+    "phosphoFill3": {
+      "rank": 3,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "185": {
+          "coords": {
+            "P": [
+              2.153,
+              5.884,
+              27.393
+            ],
+            "O1P": [
+              3.407,
+              5.906,
+              26.597
+            ],
+            "O2P": [
+              1.097,
+              4.955,
+              26.666
+            ],
+            "O3P": [
+              1.55,
+              7.375,
+              27.526
+            ]
+          },
+          "phosphate_rmsd": 1.2691,
+          "phosphate_rmsd_named": 2.1645,
+          "p_displacement": 0.9058,
+          "pred_torsion": 119.46,
+          "torsion_error_deg": 5.28
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/graft_report_rank3.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank3.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P28482__5v62__A__target-185__ctx-185__mode-joint/stage3/site_metrics_rank3.json"
+    }
+  }
+}

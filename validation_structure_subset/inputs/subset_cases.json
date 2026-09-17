@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "description": "Archived structural validation subset for inspection of stripping, internal-coordinate seeding, 12-angle scanning, score-based ranking, and independent OpenMM minimization of ranks 1-3.",
+  "expected_case_count": 14,
+  "expected_site_count": 24,
+  "expected_ok_site_count": 20,
+  "expected_no_coords_site_count": 4,
+  "case_study_case_count": 6,
+  "cases": [
+    {
+      "case_id": "case_cdk2_2cch_t160",
+      "primary_type": "TPO",
+      "match": {"ACC_ID": "P24941", "PDBID_1": "2CCH", "CHAINID_1": "A", "newpos_1": "160"},
+      "overrides": {},
+      "expected_ok_positions": [160],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "CDK2 pThr160 manuscript case study."
+    },
+    {
+      "case_id": "case_cdk2_4eoj_t160",
+      "primary_type": "TPO",
+      "match": {"ACC_ID": "P24941", "PDBID_1": "4EOJ", "CHAINID_1": "A", "newpos_1": "160"},
+      "overrides": {},
+      "expected_ok_positions": [160],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "CDK2 pThr160 manuscript case study and PyMOL structural panel source."
+    },
+    {
+      "case_id": "case_erk2_4iza_t185",
+      "primary_type": "TPO",
+      "match": {"ACC_ID": "P28482", "PDBID_1": "4IZA", "CHAINID_1": "A", "newpos_1": "185"},
+      "overrides": {"MODRES_1": "T", "modpos_orig_1": "185", "n_target_sites": "1", "n_context_sites": "1", "subset_class": "TPO_case_study_single_target"},
+      "expected_ok_positions": [185],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "ERK2 pThr185 manuscript case study; target-only row removes unrelated pTyr187 context from this TPO validation."
+    },
+    {
+      "case_id": "case_erk2_5v62_t185",
+      "primary_type": "TPO",
+      "match": {"ACC_ID": "P28482", "PDBID_1": "5V62", "CHAINID_1": "A", "newpos_1": "185"},
+      "overrides": {"MODRES_1": "T", "modpos_orig_1": "185", "n_target_sites": "1", "n_context_sites": "1", "subset_class": "TPO_case_study_single_target"},
+      "expected_ok_positions": [185],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "ERK2 pThr185 manuscript case study; target-only row removes unrelated pTyr187 context from this TPO validation."
+    },
+    {
+      "case_id": "control_tpo_4bn1_multi",
+      "primary_type": "TPO",
+      "match": {"ACC_ID": "O14965", "PDBID_1": "4BN1", "CHAINID_1": "A", "newpos_1": "287,288"},
+      "overrides": {},
+      "expected_ok_positions": [287, 288],
+      "expected_no_coords_positions": [],
+      "case_study": false,
+      "purpose": "Clean two-site TPO joint-grafting control."
+    },
+    {
+      "case_id": "control_sep_8r27_seed_match",
+      "primary_type": "SEP",
+      "match": {"ACC_ID": "P11309", "PDBID_1": "8R27", "CHAINID_1": "A", "newpos_1": "261"},
+      "overrides": {},
+      "expected_ok_positions": [261],
+      "expected_no_coords_positions": [],
+      "case_study": false,
+      "purpose": "SEP single-site control where the empirical seed is already close to the crystal pose."
+    },
+    {
+      "case_id": "control_sep_1uu3_scan_rescue",
+      "primary_type": "SEP",
+      "match": {"ACC_ID": "O15530", "PDBID_1": "1UU3", "CHAINID_1": "A", "newpos_1": "241"},
+      "overrides": {},
+      "expected_ok_positions": [241],
+      "expected_no_coords_positions": [],
+      "case_study": false,
+      "purpose": "SEP single-site control where the 12-angle scan rescues a poor initial orientation."
+    },
+    {
+      "case_id": "control_sep_5n6n_multi",
+      "primary_type": "SEP",
+      "match": {"ACC_ID": "P32356", "PDBID_1": "5N6N", "CHAINID_1": "C", "newpos_1": "60,83"},
+      "overrides": {},
+      "expected_ok_positions": [60, 83],
+      "expected_no_coords_positions": [],
+      "case_study": false,
+      "purpose": "Clean two-site SEP joint-grafting control."
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_c",
+      "primary_type": "SEP",
+      "match": {"ACC_ID": "P26361", "PDBID_1": "1R0Z", "CHAINID_1": "C", "newpos_1": "422,659,660,670"},
+      "overrides": {},
+      "expected_ok_positions": [422, 660],
+      "expected_no_coords_positions": [659, 670],
+      "case_study": false,
+      "purpose": "Archive regression case: valid sites must be retained when other listed sites lack experimental phosphate coordinates."
+    },
+    {
+      "case_id": "regression_sep_1r0z_chain_d",
+      "primary_type": "SEP",
+      "match": {"ACC_ID": "P26361", "PDBID_1": "1R0Z", "CHAINID_1": "D", "newpos_1": "659,660,670"},
+      "overrides": {},
+      "expected_ok_positions": [660, 670],
+      "expected_no_coords_positions": [659],
+      "case_study": false,
+      "purpose": "Archive regression case: valid sites must be retained when another listed site lacks experimental phosphate coordinates."
+    },
+    {
+      "case_id": "case_erk2_4iza_y187",
+      "primary_type": "PTR",
+      "match": {"ACC_ID": "P28482", "PDBID_1": "4IZA", "CHAINID_1": "A", "newpos_1": "187"},
+      "overrides": {"MODRES_1": "Y", "modpos_orig_1": "187", "n_target_sites": "1", "n_context_sites": "1", "subset_class": "PTR_case_study_single_target"},
+      "expected_ok_positions": [187],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "ERK2 pTyr187 manuscript case study; explicit Y override corrects the ambiguous mixed T,Y source-row label."
+    },
+    {
+      "case_id": "case_erk2_5v62_y187",
+      "primary_type": "PTR",
+      "match": {"ACC_ID": "P28482", "PDBID_1": "5V62", "CHAINID_1": "A", "newpos_1": "187"},
+      "overrides": {"MODRES_1": "Y", "modpos_orig_1": "187", "n_target_sites": "1", "n_context_sites": "1", "subset_class": "PTR_case_study_single_target"},
+      "expected_ok_positions": [187],
+      "expected_no_coords_positions": [],
+      "case_study": true,
+      "purpose": "ERK2 pTyr187 manuscript case study; explicit Y override corrects the ambiguous mixed T,Y source-row label."
+    },
+    {
+      "case_id": "control_ptr_2j0l_multi",
+      "primary_type": "PTR",
+      "match": {"ACC_ID": "Q00944", "PDBID_1": "2J0L", "CHAINID_1": "A", "newpos_1": "576,577"},
+      "overrides": {},
+      "expected_ok_positions": [576, 577],
+      "expected_no_coords_positions": [],
+      "case_study": false,
+      "purpose": "Clean two-site PTR joint-grafting control."
+    },
+    {
+      "case_id": "regression_ptr_2zm3_missing_ref",
+      "primary_type": "PTR",
+      "match": {"ACC_ID": "P08069", "PDBID_1": "2ZM3", "CHAINID_1": "A", "newpos_1": "1161,1165,1166"},
+      "overrides": {},
+      "expected_ok_positions": [1165, 1166],
+      "expected_no_coords_positions": [1161],
+      "case_study": false,
+      "purpose": "Archive regression case: two valid PTR sites must be retained when one listed site lacks experimental phosphate coordinates."
+    }
+  ]
+}

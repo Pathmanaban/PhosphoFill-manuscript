@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1285" height="294" viewBox="0 0 1285 294">
+<rect width="100%" height="100%" fill="white"/>
+<text x="642.5" y="28.0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">Basic residue recovery including PyTMs default (4 A)</text>
+<text x="20.0" y="58.0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#222">Case</text>
+<text x="300.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">Crystal Basic</text>
+<text x="535.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">PhosphoFill top1</text>
+<text x="685.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">PhosphoFill best-of-3</text>
+<text x="835.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">PyTMs default</text>
+<text x="985.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">PyTMs optimized</text>
+<text x="1135.0" y="58.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#222">PTM-Psi</text>
+<text x="20.0" y="84.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">CDK2 TPO 160 2CCH</text>
+<text x="300.0" y="84.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3</text>
+<rect x="465" y="66" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="615" y="66" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="765" y="66" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="835.0" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/3 (67%)</text>
+<rect x="915" y="66" width="140" height="24" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="985.0" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">1/3 (33%)</text>
+<rect x="1065" y="66" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="1135.0" y="82.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<text x="20.0" y="118.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">CDK2 TPO 160 4EOJ</text>
+<text x="300.0" y="118.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3</text>
+<rect x="465" y="100" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="116.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="615" y="100" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="116.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="765" y="100" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="835.0" y="116.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/3 (67%)</text>
+<rect x="915" y="100" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="985.0" y="116.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/3 (67%)</text>
+<rect x="1065" y="100" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="1135.0" y="116.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<text x="20.0" y="152.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">ERK2 TPO 185 4IZA</text>
+<text x="300.0" y="152.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2</text>
+<rect x="465" y="134" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="150.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="615" y="134" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="150.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="765" y="134" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="835.0" y="150.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="915" y="134" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="985.0" y="150.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">1/2 (50%)</text>
+<rect x="1065" y="134" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="1135.0" y="150.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<text x="20.0" y="186.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">ERK2 TPO 185 5V62</text>
+<text x="300.0" y="186.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3</text>
+<rect x="465" y="168" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="184.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="615" y="168" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="184.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="765" y="168" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="835.0" y="184.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/3 (67%)</text>
+<rect x="915" y="168" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="985.0" y="184.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">3/3 (100%)</text>
+<rect x="1065" y="168" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1135.0" y="184.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/3 (67%)</text>
+<text x="20.0" y="220.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">ERK2 PTR 187 4IZA</text>
+<text x="300.0" y="220.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2</text>
+<rect x="465" y="202" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="218.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="615" y="202" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="218.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="765" y="202" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="835.0" y="218.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="915" y="202" width="140" height="24" fill="#fff1bd" stroke="#dddddd"/>
+<text x="985.0" y="218.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">1/2 (50%)</text>
+<rect x="1065" y="202" width="140" height="24" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1135.0" y="218.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">0/2 (0%)</text>
+<text x="20.0" y="254.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#222">ERK2 PTR 187 5V62</text>
+<text x="300.0" y="254.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2</text>
+<rect x="465" y="236" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="535.0" y="252.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="615" y="236" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="685.0" y="252.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="765" y="236" width="140" height="24" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="835.0" y="252.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">0/2 (0%)</text>
+<rect x="915" y="236" width="140" height="24" fill="#cfead1" stroke="#dddddd"/>
+<text x="985.0" y="252.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">2/2 (100%)</text>
+<rect x="1065" y="236" width="140" height="24" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1135.0" y="252.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#222">0/2 (0%)</text>
+</svg>

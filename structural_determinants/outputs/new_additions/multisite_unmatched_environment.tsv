@@ -1,0 +1,5 @@
+restype_3	acc_id	pdb_id	chain	position	context_n_sites	reason	audit_status	audit_actual_resname
+TPO	Q9NWZ3	6vql	C	345	2	audit_record_absent		
+TPO	Q9NWZ3	9pst	B	345	2	audit_record_absent		
+SEP	P26361	1r0z	D	660	3	audit_record_absent		
+SEP	P26361	1r0z	D	670	3	audit_record_absent		

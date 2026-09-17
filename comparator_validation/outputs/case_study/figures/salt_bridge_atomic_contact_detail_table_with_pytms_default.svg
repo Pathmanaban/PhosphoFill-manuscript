@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2340" height="750" viewBox="0 0 2340 750">
+<rect width="100%" height="100%" fill="white"/>
+<text x="1170.0" y="26.0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">Detailed donor atom contact recovery including PyTMs default (4 A)</text>
+<text x="1170.0" y="48.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">Donor atoms are compared against any phosphate oxygen: M = missing crystal donors, X = extra predicted donors</text>
+<text x="20.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">Case</text>
+<text x="240.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">Crystal donor atoms</text>
+<text x="608.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">PhosphoFill top1</text>
+<text x="948.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">PhosphoFill best-of-3</text>
+<text x="1288.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">PyTMs default</text>
+<text x="1628.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">PyTMs optimized</text>
+<text x="1968.0" y="78.0" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#222">PTM-Psi</text>
+<text x="20.0" y="106.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">CDK2</text>
+<text x="20.0" y="120.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">TPO</text>
+<text x="20.0" y="134.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">160</text>
+<text x="20.0" y="148.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">2CCH</text>
+<text x="240.0" y="106.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6 donor atoms</text>
+<text x="240.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: A:R126:NH2-Ophos, A:R126:NH1-Ophos, A:R50:NH2-Ophos, A:R150:NE-Ophos, +2 more</text>
+<rect x="600" y="88" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="104.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6/6 (100%)</text>
+<text x="608.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="140.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="88" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="104.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6/6 (100%)</text>
+<text x="948.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="140.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="88" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1288.0" y="104.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/6 (50%)</text>
+<text x="1288.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R126:NH1-Ophos, A:R150:NE-Ophos, A:R150:NH2-Ophos</text>
+<text x="1288.0" y="140.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1620" y="88" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1628.0" y="104.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">1/6 (17%)</text>
+<text x="1628.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R126:NH1-Ophos, A:R126:NH2-Ophos, A:R150:NE-Ophos, +2 more</text>
+<text x="1628.0" y="140.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="88" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1968.0" y="104.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/6 (67%)</text>
+<text x="1968.0" y="122.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R127:NH1-Ophos, A:R151:NE-Ophos</text>
+<text x="1968.0" y="140.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="10" y="190" width="2320" height="96" fill="#fafafa"/>
+<text x="20.0" y="210.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">CDK2</text>
+<text x="20.0" y="224.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">TPO</text>
+<text x="20.0" y="238.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">160</text>
+<text x="20.0" y="252.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">4EOJ</text>
+<text x="240.0" y="210.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6 donor atoms</text>
+<text x="240.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: A:R126:NH1-Ophos, A:R126:NH2-Ophos, A:R150:NH2-Ophos, A:R150:NE-Ophos, +2 more</text>
+<rect x="600" y="192" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="208.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6/6 (100%)</text>
+<text x="608.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="244.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="192" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="208.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">6/6 (100%)</text>
+<text x="948.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="244.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="192" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1288.0" y="208.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/6 (67%)</text>
+<text x="1288.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R150:NE-Ophos, A:R150:NH2-Ophos</text>
+<text x="1288.0" y="244.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1620" y="192" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1628.0" y="208.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/6 (50%)</text>
+<text x="1628.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R126:NH2-Ophos, A:R50:NH1-Ophos, A:R50:NH2-Ophos</text>
+<text x="1628.0" y="244.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="192" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1968.0" y="208.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/6 (67%)</text>
+<text x="1968.0" y="226.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R124:NH1-Ophos, A:R148:NE-Ophos</text>
+<text x="1968.0" y="244.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<text x="20.0" y="314.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">ERK2</text>
+<text x="20.0" y="328.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">TPO</text>
+<text x="20.0" y="342.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">185</text>
+<text x="20.0" y="356.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">4IZA</text>
+<text x="240.0" y="314.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3 donor atoms</text>
+<text x="240.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: B:R71:NH2-Ophos, A:H180:ND1-Ophos, B:R71:NH1-Ophos</text>
+<rect x="600" y="296" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="312.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="608.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="348.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="296" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="312.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="948.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="348.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="296" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1288.0" y="312.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="1288.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="1288.0" y="348.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: B:R71:NE-Ophos</text>
+<rect x="1620" y="296" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1628.0" y="312.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">1/3 (33%)</text>
+<text x="1628.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:H180:ND1-Ophos, B:R71:NH1-Ophos</text>
+<text x="1628.0" y="348.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="296" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1968.0" y="312.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="1968.0" y="330.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="1968.0" y="348.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: B:R72:NE-Ophos</text>
+<rect x="10" y="398" width="2320" height="96" fill="#fafafa"/>
+<text x="20.0" y="418.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">ERK2</text>
+<text x="20.0" y="432.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">TPO</text>
+<text x="20.0" y="446.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">185</text>
+<text x="20.0" y="460.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">5V62</text>
+<text x="240.0" y="418.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">5 donor atoms</text>
+<text x="240.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: A:R70:NH1-Ophos, A:R148:NH1-Ophos, A:R148:NH2-Ophos, A:R172:NH1-Ophos, +1 more</text>
+<rect x="600" y="400" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="416.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">5/5 (100%)</text>
+<text x="608.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="452.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="400" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="416.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">5/5 (100%)</text>
+<text x="948.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="452.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="400" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1288.0" y="416.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/5 (80%)</text>
+<text x="1288.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R172:NH1-Ophos</text>
+<text x="1288.0" y="452.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1620" y="400" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1628.0" y="416.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">5/5 (100%)</text>
+<text x="1628.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="1628.0" y="452.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="400" width="328" height="78" fill="#fff1bd" stroke="#dddddd"/>
+<text x="1968.0" y="416.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/5 (60%)</text>
+<text x="1968.0" y="434.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R139:NH1-Ophos, A:R163:NH1-Ophos</text>
+<text x="1968.0" y="452.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<text x="20.0" y="522.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">ERK2</text>
+<text x="20.0" y="536.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">PTR</text>
+<text x="20.0" y="550.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">187</text>
+<text x="20.0" y="564.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">4IZA</text>
+<text x="240.0" y="522.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3 donor atoms</text>
+<text x="240.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: A:K151:NZ-Ophos, A:R67:NH2-Ophos, A:R67:NH1-Ophos</text>
+<rect x="600" y="504" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="520.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="608.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="556.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="504" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="520.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="948.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="556.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="504" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1288.0" y="520.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">3/3 (100%)</text>
+<text x="1288.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="1288.0" y="556.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1620" y="504" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1628.0" y="520.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">1/3 (33%)</text>
+<text x="1628.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R67:NH1-Ophos, A:R67:NH2-Ophos</text>
+<text x="1628.0" y="556.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="504" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1968.0" y="520.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">0/3 (0%)</text>
+<text x="1968.0" y="538.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R57:NH1-Ophos, A:R57:NH2-Ophos, A:K141:NZ-Ophos</text>
+<text x="1968.0" y="556.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="10" y="606" width="2320" height="96" fill="#fafafa"/>
+<text x="20.0" y="626.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">ERK2</text>
+<text x="20.0" y="640.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">PTR</text>
+<text x="20.0" y="654.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">187</text>
+<text x="20.0" y="668.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#222">5V62</text>
+<text x="240.0" y="626.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4 donor atoms</text>
+<text x="240.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">C: A:R194:NH1-Ophos, A:R194:NH2-Ophos, A:R191:NH2-Ophos, A:R191:NE-Ophos</text>
+<rect x="600" y="608" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="608.0" y="624.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/4 (100%)</text>
+<text x="608.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="608.0" y="660.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="940" y="608" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="948.0" y="624.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/4 (100%)</text>
+<text x="948.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="948.0" y="660.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1280" y="608" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1288.0" y="624.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">0/4 (0%)</text>
+<text x="1288.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R191:NE-Ophos, A:R191:NH2-Ophos, A:R194:NH1-Ophos, +1 more</text>
+<text x="1288.0" y="660.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1620" y="608" width="328" height="78" fill="#cfead1" stroke="#dddddd"/>
+<text x="1628.0" y="624.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">4/4 (100%)</text>
+<text x="1628.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: -</text>
+<text x="1628.0" y="660.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: -</text>
+<rect x="1960" y="608" width="328" height="78" fill="#f4c7c3" stroke="#dddddd"/>
+<text x="1968.0" y="624.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">0/4 (0%)</text>
+<text x="1968.0" y="642.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">M: A:R180:NE-Ophos, A:R180:NH2-Ophos, A:R183:NH1-Ophos, +1 more</text>
+<text x="1968.0" y="660.0" font-family="Arial, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#222">X: A:R181:NE-Ophos, A:R181:NH2-Ophos, A:R184:NH1-Ophos</text>
+</svg>

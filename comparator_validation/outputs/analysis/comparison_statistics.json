@@ -1,0 +1,68 @@
+{
+  "phosphofill_validation_n": 790,
+  "complete_case_n": 785,
+  "complete_case_residue_counts": {
+    "PTR": 216,
+    "SEP": 241,
+    "TPO": 328
+  },
+  "environment_matches_n": 773,
+  "kruskal_wallis_top1_by_residue_all_790": {
+    "H": 105.45617617531028,
+    "p": 1.2603242778295612e-23
+  },
+  "spearman_scoring_gap_all_790": {
+    "rho": 0.8538517851195276,
+    "p": 1.1807318860353762e-225
+  },
+  "spearman_scoring_gap_common_785": {
+    "rho": 0.8532231770488959,
+    "p": 1.4580067654555416e-223
+  },
+  "paired_comparisons": [
+    {
+      "comparison": "PhosphoFill top-1 vs PyTMs optimised",
+      "n": 785,
+      "phosphofill_lower_n": 619,
+      "comparator_lower_n": 166,
+      "ties_n": 0,
+      "phosphofill_median_A": 0.6029,
+      "comparator_median_A": 1.299,
+      "wilcoxon_statistic": 53511.5,
+      "wilcoxon_p": 1.366822494135656e-56,
+      "matched_rank_biserial_r": 0.6530915220174713,
+      "mcnemar_threshold_A": 1.0,
+      "both_recovered_n": 188,
+      "phosphofill_only_n": 336,
+      "comparator_only_n": 49,
+      "neither_recovered_n": 212,
+      "mcnemar_continuity_corrected_chi2": 212.45714285714286,
+      "mcnemar_continuity_corrected_p": 3.997618657848478e-48
+    },
+    {
+      "comparison": "PhosphoFill top-1 vs PTM-Psi",
+      "n": 785,
+      "phosphofill_lower_n": 670,
+      "comparator_lower_n": 115,
+      "ties_n": 0,
+      "phosphofill_median_A": 0.6029,
+      "comparator_median_A": 2.1012,
+      "wilcoxon_statistic": 25767.0,
+      "wilcoxon_p": 6.879957263120466e-91,
+      "matched_rank_biserial_r": 0.8329557057422083,
+      "mcnemar_threshold_A": 1.0,
+      "both_recovered_n": 13,
+      "phosphofill_only_n": 511,
+      "comparator_only_n": 30,
+      "neither_recovered_n": 231,
+      "mcnemar_continuity_corrected_chi2": 425.87800369685766,
+      "mcnemar_continuity_corrected_p": 1.282478600797461e-94
+    }
+  ],
+  "method_definition_checkpoint": {
+    "PhosphoFill Stage 0 seed": "Residue-specific internal-coordinate phosphate seed before conformational scanning and minimisation; the legacy TSV column name is stage0_kabsch_rmsd",
+    "PyTMs default": "PyTMs 1.2 phosphorylate(selection=site), optimize=0 default",
+    "PyTMs optimised": "PyTMs 1.2 phosphorylate(selection=site, optimize=1, interval=30, remove_radius=0); the built-in loop may stop early at zero VDW strain",
+    "PTM-Psi": "PTM-Psi 0.1 Protein.modify(site, 'phosphorylation'); NERF internal-coordinate construction with a 180-degree attachment torsion"
+  }
+}

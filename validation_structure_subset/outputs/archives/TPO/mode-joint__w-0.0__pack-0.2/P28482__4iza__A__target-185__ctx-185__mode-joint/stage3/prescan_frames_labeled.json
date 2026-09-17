@@ -1,0 +1,2082 @@
+{
+  "A:185": {
+    "neighbors": [
+      {
+        "label": "GLY A:182",
+        "short": "G182",
+        "x": 2.551,
+        "y": -3.102
+      },
+      {
+        "label": "ARG B:71",
+        "short": "R71",
+        "x": 1.273,
+        "y": 2.219
+      },
+      {
+        "label": "LEU A:184",
+        "short": "L184",
+        "x": -2.933,
+        "y": -2.208
+      },
+      {
+        "label": "HIS A:180",
+        "short": "H180",
+        "x": 4.546,
+        "y": -1.285
+      },
+      {
+        "label": "PHE A:183",
+        "short": "F183",
+        "x": 0.92,
+        "y": -4.872
+      },
+      {
+        "label": "HOH A:783",
+        "short": "HOH783",
+        "x": 6.518,
+        "y": 0.879
+      },
+      {
+        "label": "THR A:181",
+        "short": "T181",
+        "x": 4.034,
+        "y": -4.897
+      },
+      {
+        "label": "TYR A:205",
+        "short": "Y205",
+        "x": -0.862,
+        "y": -0.248
+      },
+      {
+        "label": "SER A:202",
+        "short": "S202",
+        "x": 1.995,
+        "y": -2.008
+      },
+      {
+        "label": "ILE B:69",
+        "short": "I69",
+        "x": 3.929,
+        "y": 3.593
+      },
+      {
+        "label": "HOH B:162",
+        "short": "HOH162",
+        "x": 5.07,
+        "y": 2.386
+      },
+      {
+        "label": "HOH A:710",
+        "short": "HOH710",
+        "x": -2.084,
+        "y": 3.945
+      },
+      {
+        "label": "GLU B:68",
+        "short": "E68",
+        "x": 1.962,
+        "y": 6.619
+      },
+      {
+        "label": "ILE A:198",
+        "short": "I198",
+        "x": -4.229,
+        "y": 0.794
+      },
+      {
+        "label": "ARG A:194",
+        "short": "R194",
+        "x": -5.625,
+        "y": 1.687
+      },
+      {
+        "label": "GLU A:186",
+        "short": "E186",
+        "x": -1.214,
+        "y": -0.709
+      },
+      {
+        "label": "ARG A:148",
+        "short": "R148",
+        "x": -3.433,
+        "y": -5.443
+      }
+    ],
+    "residue": "TPO",
+    "frames": [
+      {
+        "angle": 0.0,
+        "clash_score": 0.0,
+        "contact_bonus": 4.7563,
+        "basic_bonus": 2.8323,
+        "hbond_bonus": 1.5108,
+        "pack_bonus": 23.4242,
+        "geom_prior_penalty": 0.0,
+        "geom_prior_torsion_penalty": 0.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": -11.1049,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            16.796,
+            -11.383,
+            -24.384
+          ],
+          "O1P": [
+            16.3,
+            -12.57,
+            -23.602
+          ],
+          "O2P": [
+            18.089,
+            -11.653,
+            -25.128
+          ],
+          "O3P": [
+            16.91,
+            -10.135,
+            -23.333
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            0.754,
+            -1.196
+          ],
+          "O1P": [
+            2.159,
+            -1.158
+          ],
+          "O2P": [
+            0.69,
+            -1.091
+          ],
+          "O3P": [
+            0.059,
+            -2.558
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 2.91,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O1P",
+            "dist": 3.0,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.18,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.19,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 3.3,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 3.32,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 3.38,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CB",
+            "po3": "O2P",
+            "dist": 3.41,
+            "clash": false
+          },
+          {
+            "res": "PHE A:183",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.53,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 3.55,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 3.56,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 3.62,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 3.63,
+            "clash": false
+          }
+        ],
+        "selection_rank": 1,
+        "frame_id": 0,
+        "rmsd_to_ref": 0.3194,
+        "is_best_rmsd": 1,
+        "is_good_1A": 1
+      },
+      {
+        "angle": 30.0,
+        "clash_score": 0.0,
+        "contact_bonus": 5.665,
+        "basic_bonus": 4.0662,
+        "hbond_bonus": 0.8418,
+        "pack_bonus": 19.7117,
+        "geom_prior_penalty": 3.375,
+        "geom_prior_torsion_penalty": 2.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": -5.7457,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            16.549,
+            -12.033,
+            -24.61
+          ],
+          "O1P": [
+            15.731,
+            -13.29,
+            -24.477
+          ],
+          "O2P": [
+            17.863,
+            -12.247,
+            -25.335
+          ],
+          "O3P": [
+            16.739,
+            -11.428,
+            -23.103
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            1.251,
+            -0.658
+          ],
+          "O1P": [
+            2.449,
+            0.076
+          ],
+          "O2P": [
+            1.143,
+            -0.6
+          ],
+          "O3P": [
+            1.33,
+            -2.186
+          ]
+        },
+        "contacts": [
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 2.59,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.66,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 2.74,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O1P",
+            "dist": 3.09,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 3.16,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 3.21,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CB",
+            "po3": "O2P",
+            "dist": 3.43,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O2P",
+            "dist": 3.48,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "P",
+            "dist": 3.59,
+            "clash": false
+          },
+          {
+            "res": "PHE A:183",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.62,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 3.72,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CG",
+            "po3": "O2P",
+            "dist": 3.75,
+            "clash": false
+          }
+        ],
+        "selection_rank": 2,
+        "frame_id": 1,
+        "rmsd_to_ref": 0.8854,
+        "is_best_rmsd": 0,
+        "is_good_1A": 1
+      },
+      {
+        "angle": 60.0,
+        "clash_score": 0.0053,
+        "contact_bonus": 4.7792,
+        "basic_bonus": 3.1571,
+        "hbond_bonus": 0.744,
+        "pack_bonus": 17.7542,
+        "geom_prior_penalty": 13.5,
+        "geom_prior_torsion_penalty": 9.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 16.7683,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            16.22,
+            -12.444,
+            -25.119
+          ],
+          "O1P": [
+            15.172,
+            -13.407,
+            -25.609
+          ],
+          "O2P": [
+            17.562,
+            -12.622,
+            -25.799
+          ],
+          "O3P": [
+            16.297,
+            -12.614,
+            -23.494
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            1.412,
+            0.055
+          ],
+          "O1P": [
+            2.083,
+            1.291
+          ],
+          "O2P": [
+            1.29,
+            0.052
+          ],
+          "O3P": [
+            2.245,
+            -1.228
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 2.2,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.41,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 2.65,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 2.72,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 2.82,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 2.87,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O3P",
+            "dist": 2.96,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.08,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 3.13,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O2P",
+            "dist": 3.53,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 3.63,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "P",
+            "dist": 3.64,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 3.72,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CG",
+            "po3": "O3P",
+            "dist": 3.75,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.76,
+            "clash": false
+          }
+        ],
+        "frame_id": 2,
+        "rmsd_to_ref": 1.8292,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 90.0,
+        "clash_score": 0.3549,
+        "contact_bonus": 4.3424,
+        "basic_bonus": 2.85,
+        "hbond_bonus": 0.0,
+        "pack_bonus": 17.5501,
+        "geom_prior_penalty": 30.375,
+        "geom_prior_torsion_penalty": 20.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 51.8948,
+        "n_clashing": 1,
+        "coords": {
+          "P": [
+            15.898,
+            -12.506,
+            -25.773
+          ],
+          "O1P": [
+            14.772,
+            -12.889,
+            -26.695
+          ],
+          "O2P": [
+            17.268,
+            -12.678,
+            -26.396
+          ],
+          "O3P": [
+            15.705,
+            -13.375,
+            -24.401
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            1.196,
+            0.754
+          ],
+          "O1P": [
+            1.158,
+            2.159
+          ],
+          "O2P": [
+            1.091,
+            0.69
+          ],
+          "O3P": [
+            2.558,
+            0.059
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 1.58,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 2.15,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.15,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 2.39,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 2.43,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "ND1",
+            "po3": "O3P",
+            "dist": 3.03,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 3.29,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 3.39,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "P",
+            "dist": 3.4,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NE",
+            "po3": "O2P",
+            "dist": 3.47,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 3.52,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 3.53,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.58,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O1P",
+            "dist": 3.65,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CE1",
+            "po3": "O3P",
+            "dist": 3.75,
+            "clash": false
+          }
+        ],
+        "frame_id": 3,
+        "rmsd_to_ref": 2.6646,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 120.0,
+        "clash_score": 0.9535,
+        "contact_bonus": 4.4164,
+        "basic_bonus": 2.6896,
+        "hbond_bonus": 0.0,
+        "pack_bonus": 13.9362,
+        "geom_prior_penalty": 54.0,
+        "geom_prior_torsion_penalty": 36.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 100.787,
+        "n_clashing": 3,
+        "coords": {
+          "P": [
+            15.67,
+            -12.202,
+            -26.398
+          ],
+          "O1P": [
+            14.638,
+            -11.874,
+            -27.444
+          ],
+          "O2P": [
+            17.06,
+            -12.399,
+            -26.967
+          ],
+          "O3P": [
+            15.119,
+            -13.508,
+            -25.582
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            0.658,
+            1.251
+          ],
+          "O1P": [
+            -0.076,
+            2.449
+          ],
+          "O2P": [
+            0.6,
+            1.143
+          ],
+          "O3P": [
+            2.186,
+            1.33
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 1.32,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 1.85,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 1.97,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 2.2,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 2.77,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 2.78,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 2.97,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.05,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NE",
+            "po3": "O2P",
+            "dist": 3.15,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "P",
+            "dist": 3.2,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.46,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 3.55,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 3.69,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O1P",
+            "dist": 3.72,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 3.76,
+            "clash": false
+          }
+        ],
+        "frame_id": 4,
+        "rmsd_to_ref": 3.1196,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 150.0,
+        "clash_score": 0.5221,
+        "contact_bonus": 4.5226,
+        "basic_bonus": 1.9896,
+        "hbond_bonus": 0.0,
+        "pack_bonus": 12.1739,
+        "geom_prior_penalty": 84.375,
+        "geom_prior_torsion_penalty": 56.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 162.858,
+        "n_clashing": 3,
+        "coords": {
+          "P": [
+            15.595,
+            -11.613,
+            -26.826
+          ],
+          "O1P": [
+            14.807,
+            -10.635,
+            -27.656
+          ],
+          "O2P": [
+            16.992,
+            -11.861,
+            -27.357
+          ],
+          "O3P": [
+            14.698,
+            -12.976,
+            -26.719
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -0.055,
+            1.412
+          ],
+          "O1P": [
+            -1.291,
+            2.083
+          ],
+          "O2P": [
+            -0.052,
+            1.29
+          ],
+          "O3P": [
+            1.228,
+            2.245
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 1.66,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 1.92,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 1.93,
+            "clash": true
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 2.44,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 2.46,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 2.58,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NE",
+            "po3": "O2P",
+            "dist": 3.14,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.21,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "P",
+            "dist": 3.25,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 3.27,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O2P",
+            "dist": 3.37,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "P",
+            "dist": 3.41,
+            "clash": false
+          },
+          {
+            "res": "ILE B:69",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 3.42,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 3.53,
+            "clash": false
+          }
+        ],
+        "frame_id": 5,
+        "rmsd_to_ref": 3.3932,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 180.0,
+        "clash_score": 0.0363,
+        "contact_bonus": 4.2414,
+        "basic_bonus": 1.927,
+        "hbond_bonus": 0.0,
+        "pack_bonus": 13.7588,
+        "geom_prior_penalty": 121.5,
+        "geom_prior_torsion_penalty": 81.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 236.4306,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            15.695,
+            -10.898,
+            -26.942
+          ],
+          "O1P": [
+            15.233,
+            -9.504,
+            -27.272
+          ],
+          "O2P": [
+            17.083,
+            -11.208,
+            -27.463
+          ],
+          "O3P": [
+            14.554,
+            -11.923,
+            -27.509
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -0.754,
+            1.196
+          ],
+          "O1P": [
+            -2.159,
+            1.158
+          ],
+          "O2P": [
+            -0.69,
+            1.091
+          ],
+          "O3P": [
+            -0.059,
+            2.558
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.06,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 2.29,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 2.33,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 2.82,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 2.95,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 2.95,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 3.21,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O2P",
+            "dist": 3.21,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "P",
+            "dist": 3.23,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NE",
+            "po3": "O2P",
+            "dist": 3.47,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.52,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "P",
+            "dist": 3.53,
+            "clash": false
+          },
+          {
+            "res": "ARG A:194",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 3.64,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O3P",
+            "dist": 3.77,
+            "clash": false
+          },
+          {
+            "res": "ILE A:198",
+            "n_atom": "O",
+            "po3": "O2P",
+            "dist": 3.95,
+            "clash": false
+          }
+        ],
+        "frame_id": 6,
+        "rmsd_to_ref": 3.507,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 210.0,
+        "clash_score": 0.0001,
+        "contact_bonus": 5.0495,
+        "basic_bonus": 2.0201,
+        "hbond_bonus": 0.0,
+        "pack_bonus": 14.2992,
+        "geom_prior_penalty": 84.375,
+        "geom_prior_torsion_penalty": 56.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 161.8501,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            15.942,
+            -10.247,
+            -26.716
+          ],
+          "O1P": [
+            15.802,
+            -8.783,
+            -26.397
+          ],
+          "O2P": [
+            17.31,
+            -10.614,
+            -27.256
+          ],
+          "O3P": [
+            14.725,
+            -10.63,
+            -27.739
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -1.251,
+            0.658
+          ],
+          "O1P": [
+            -2.449,
+            -0.076
+          ],
+          "O2P": [
+            -1.143,
+            0.6
+          ],
+          "O3P": [
+            -1.33,
+            2.186
+          ]
+        },
+        "contacts": [
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.3,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 2.52,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 2.93,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O1P",
+            "dist": 3.0,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O1P",
+            "dist": 3.17,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O1P",
+            "dist": 3.31,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 3.37,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O2P",
+            "dist": 3.5,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "P",
+            "dist": 3.51,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "P",
+            "dist": 3.55,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 3.58,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 3.61,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "P",
+            "dist": 3.68,
+            "clash": false
+          },
+          {
+            "res": "ARG A:194",
+            "n_atom": "NH1",
+            "po3": "O1P",
+            "dist": 3.76,
+            "clash": false
+          }
+        ],
+        "frame_id": 7,
+        "rmsd_to_ref": 3.4471,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 240.0,
+        "clash_score": 0.1348,
+        "contact_bonus": 3.9694,
+        "basic_bonus": 1.8171,
+        "hbond_bonus": 0.0006,
+        "pack_bonus": 15.1786,
+        "geom_prior_penalty": 54.0,
+        "geom_prior_torsion_penalty": 36.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 101.4644,
+        "n_clashing": 1,
+        "coords": {
+          "P": [
+            16.271,
+            -9.836,
+            -26.208
+          ],
+          "O1P": [
+            16.361,
+            -8.666,
+            -25.265
+          ],
+          "O2P": [
+            17.61,
+            -10.239,
+            -26.792
+          ],
+          "O3P": [
+            15.166,
+            -9.444,
+            -27.348
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -1.412,
+            -0.055
+          ],
+          "O1P": [
+            -2.083,
+            -1.291
+          ],
+          "O2P": [
+            -1.29,
+            -0.052
+          ],
+          "O3P": [
+            -2.245,
+            1.228
+          ]
+        },
+        "contacts": [
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O1P",
+            "dist": 2.4,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.56,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 2.61,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O1P",
+            "dist": 2.65,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O1P",
+            "dist": 2.92,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 2.96,
+            "clash": false
+          },
+          {
+            "res": "HOH A:710",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.17,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "O",
+            "po3": "O1P",
+            "dist": 3.19,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 3.33,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O2P",
+            "dist": 3.45,
+            "clash": false
+          },
+          {
+            "res": "ARG A:194",
+            "n_atom": "NH1",
+            "po3": "O3P",
+            "dist": 3.54,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.6,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "P",
+            "dist": 3.66,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "P",
+            "dist": 3.7,
+            "clash": false
+          }
+        ],
+        "frame_id": 8,
+        "rmsd_to_ref": 3.221,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 270.0,
+        "clash_score": 0.0773,
+        "contact_bonus": 3.4623,
+        "basic_bonus": 1.6371,
+        "hbond_bonus": 0.9167,
+        "pack_bonus": 20.1815,
+        "geom_prior_penalty": 30.375,
+        "geom_prior_torsion_penalty": 20.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 53.0585,
+        "n_clashing": 0,
+        "coords": {
+          "P": [
+            16.593,
+            -9.775,
+            -25.554
+          ],
+          "O1P": [
+            16.761,
+            -9.184,
+            -24.179
+          ],
+          "O2P": [
+            17.904,
+            -10.184,
+            -26.195
+          ],
+          "O3P": [
+            15.759,
+            -8.683,
+            -26.441
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -1.196,
+            -0.754
+          ],
+          "O1P": [
+            -1.158,
+            -2.159
+          ],
+          "O2P": [
+            -1.091,
+            -0.69
+          ],
+          "O3P": [
+            -2.558,
+            -0.059
+          ]
+        },
+        "contacts": [
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 2.61,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O1P",
+            "dist": 2.71,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.78,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 2.96,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 2.97,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O3P",
+            "dist": 3.12,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O1P",
+            "dist": 3.26,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O2P",
+            "dist": 3.27,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O3P",
+            "dist": 3.3,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.3,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "P",
+            "dist": 3.47,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O1P",
+            "dist": 3.47,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "P",
+            "dist": 3.59,
+            "clash": false
+          }
+        ],
+        "frame_id": 9,
+        "rmsd_to_ref": 2.8594,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 300.0,
+        "clash_score": 0.161,
+        "contact_bonus": 3.8625,
+        "basic_bonus": 1.2084,
+        "hbond_bonus": 0.6402,
+        "pack_bonus": 20.6095,
+        "geom_prior_penalty": 13.5,
+        "geom_prior_torsion_penalty": 9.0,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": 20.3022,
+        "n_clashing": 1,
+        "coords": {
+          "P": [
+            16.822,
+            -10.079,
+            -24.929
+          ],
+          "O1P": [
+            16.894,
+            -10.199,
+            -23.43
+          ],
+          "O2P": [
+            18.112,
+            -10.462,
+            -25.624
+          ],
+          "O3P": [
+            16.344,
+            -8.55,
+            -25.26
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            -0.658,
+            -1.251
+          ],
+          "O1P": [
+            0.076,
+            -2.449
+          ],
+          "O2P": [
+            -0.6,
+            -1.143
+          ],
+          "O3P": [
+            -2.186,
+            -1.33
+          ]
+        },
+        "contacts": [
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 2.32,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 2.53,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O3P",
+            "dist": 2.55,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 2.87,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O3P",
+            "dist": 2.87,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.92,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.1,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.29,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 3.33,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "C",
+            "po3": "O1P",
+            "dist": 3.38,
+            "clash": false
+          },
+          {
+            "res": "PHE A:183",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.54,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O2P",
+            "dist": 3.55,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 3.55,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.57,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "P",
+            "dist": 3.58,
+            "clash": false
+          }
+        ],
+        "frame_id": 10,
+        "rmsd_to_ref": 2.1343,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      },
+      {
+        "angle": 330.0,
+        "clash_score": 0.0956,
+        "contact_bonus": 4.2334,
+        "basic_bonus": 1.6625,
+        "hbond_bonus": 1.9035,
+        "pack_bonus": 20.3262,
+        "geom_prior_penalty": 3.375,
+        "geom_prior_torsion_penalty": 2.25,
+        "geom_prior_mode": "TPO:-58.9",
+        "total_score": -1.4963,
+        "n_clashing": 1,
+        "coords": {
+          "P": [
+            16.896,
+            -10.667,
+            -24.501
+          ],
+          "O1P": [
+            16.726,
+            -11.438,
+            -23.219
+          ],
+          "O2P": [
+            18.18,
+            -11.0,
+            -25.234
+          ],
+          "O3P": [
+            16.766,
+            -9.082,
+            -24.123
+          ]
+        },
+        "po3_2d": {
+          "P": [
+            0.055,
+            -1.412
+          ],
+          "O1P": [
+            1.291,
+            -2.083
+          ],
+          "O2P": [
+            0.052,
+            -1.29
+          ],
+          "O3P": [
+            -1.228,
+            -2.245
+          ]
+        },
+        "contacts": [
+          {
+            "res": "LEU A:184",
+            "n_atom": "CB",
+            "po3": "O3P",
+            "dist": 2.5,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "C",
+            "po3": "O3P",
+            "dist": 2.64,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "CA",
+            "po3": "O1P",
+            "dist": 2.67,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CA",
+            "po3": "O3P",
+            "dist": 2.74,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "N",
+            "po3": "O3P",
+            "dist": 2.85,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH2",
+            "po3": "O2P",
+            "dist": 2.94,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CG",
+            "po3": "O3P",
+            "dist": 3.19,
+            "clash": false
+          },
+          {
+            "res": "GLY A:182",
+            "n_atom": "C",
+            "po3": "O1P",
+            "dist": 3.29,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "CD2",
+            "po3": "O3P",
+            "dist": 3.44,
+            "clash": false
+          },
+          {
+            "res": "PHE A:183",
+            "n_atom": "N",
+            "po3": "O1P",
+            "dist": 3.72,
+            "clash": false
+          },
+          {
+            "res": "HIS A:180",
+            "n_atom": "CB",
+            "po3": "O1P",
+            "dist": 3.73,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "NH1",
+            "po3": "O2P",
+            "dist": 3.73,
+            "clash": false
+          },
+          {
+            "res": "LEU A:184",
+            "n_atom": "O",
+            "po3": "O3P",
+            "dist": 3.75,
+            "clash": false
+          },
+          {
+            "res": "ARG B:71",
+            "n_atom": "CZ",
+            "po3": "O2P",
+            "dist": 3.8,
+            "clash": false
+          }
+        ],
+        "selection_rank": 3,
+        "frame_id": 11,
+        "rmsd_to_ref": 1.2176,
+        "is_best_rmsd": 0,
+        "is_good_1A": 0
+      }
+    ]
+  }
+}

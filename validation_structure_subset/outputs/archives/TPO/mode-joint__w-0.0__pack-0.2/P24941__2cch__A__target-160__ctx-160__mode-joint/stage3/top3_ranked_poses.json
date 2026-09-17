@@ -1,0 +1,124 @@
+{
+  "definition": "three independently minimized rank-matched prescan candidates",
+  "paths": {
+    "phosphoFill1": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill1.cif",
+    "phosphoFill2": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill2.cif",
+    "phosphoFill3": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/phosphoFill3.cif"
+  },
+  "structures": {
+    "phosphoFill1": {
+      "rank": 1,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "160": {
+          "coords": {
+            "P": [
+              13.098,
+              19.922,
+              20.658
+            ],
+            "O1P": [
+              13.343,
+              18.873,
+              19.658
+            ],
+            "O2P": [
+              12.398,
+              19.271,
+              21.951
+            ],
+            "O3P": [
+              12.166,
+              21.078,
+              20.068
+            ]
+          },
+          "phosphate_rmsd": 0.2022,
+          "phosphate_rmsd_named": 1.8089,
+          "p_displacement": 0.1241,
+          "pred_torsion": 119.64,
+          "torsion_error_deg": 2.82
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank1.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank1.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank1.json"
+    },
+    "phosphoFill2": {
+      "rank": 2,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "160": {
+          "coords": {
+            "P": [
+              12.915,
+              20.592,
+              20.913
+            ],
+            "O1P": [
+              12.547,
+              19.866,
+              19.691
+            ],
+            "O2P": [
+              12.23,
+              19.875,
+              22.182
+            ],
+            "O3P": [
+              12.448,
+              22.118,
+              20.845
+            ]
+          },
+          "phosphate_rmsd": 1.039,
+          "phosphate_rmsd_named": 2.0106,
+          "p_displacement": 0.7187,
+          "pred_torsion": 119.85,
+          "torsion_error_deg": 3.22
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank2.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank2.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank2.json"
+    },
+    "phosphoFill3": {
+      "rank": 3,
+      "post_minimization": true,
+      "coords_snapshot": {
+        "160": {
+          "coords": {
+            "P": [
+              13.564,
+              19.347,
+              20.643
+            ],
+            "O1P": [
+              14.412,
+              18.304,
+              20.049
+            ],
+            "O2P": [
+              12.819,
+              18.752,
+              21.938
+            ],
+            "O3P": [
+              12.479,
+              19.876,
+              19.596
+            ]
+          },
+          "phosphate_rmsd": 1.0743,
+          "phosphate_rmsd_named": 2.0761,
+          "p_displacement": 0.7698,
+          "pred_torsion": 119.2,
+          "torsion_error_deg": 2.36
+        }
+      },
+      "graft_report": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/graft_report_rank3.tsv",
+      "site_metrics": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank3.tsv",
+      "site_metrics_json": "outputs/archives/TPO/mode-joint__w-0.0__pack-0.2/P24941__2cch__A__target-160__ctx-160__mode-joint/stage3/site_metrics_rank3.json"
+    }
+  }
+}

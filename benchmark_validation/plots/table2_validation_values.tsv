@@ -1,0 +1,5 @@
+type	n	stage0_seed_median	stage1_oracle_median	stage2_selected_median	top1_postmin_median	top3_best_postmin_median	top1_le_1A_pct	top3_le_1A_pct	top1_le_1_5A_pct	top3_le_1_5A_pct	top3_improved_n	top3_improved_pct
+TPO	332	0.4225	0.4162	0.42395	0.42395	0.4158	77.4096	87.9518	87.3494	96.3855	86	25.9036
+SEP	241	1.2882	0.4527	0.5519	0.5533	0.471	70.1245	87.9668	81.7427	96.2656	83	34.4398
+PTR	217	2.7306	0.5226	1.0217	1.0195	0.6111	47.0046	75.576	76.9585	90.3226	127	58.5253
+Combined	790	1.0389	0.472	0.6057	0.60565	0.48745	66.8354	84.557	82.7848	94.6835	296	37.4684

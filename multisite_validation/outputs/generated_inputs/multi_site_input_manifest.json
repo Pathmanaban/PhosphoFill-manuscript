@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-08-27T15:19:42.516059+00:00",
+  "selection_rule": "n_target_sites > 1",
+  "totals": {
+    "rows": 248,
+    "requested_sites": 519
+  },
+  "by_primary_type": {
+    "TPO": {
+      "source": "inputs/source_benchmarks/TPO_benchmark.tsv",
+      "output": "outputs/generated_inputs/TPO_multi_site.tsv",
+      "rows": 80,
+      "requested_sites": 169
+    },
+    "SEP": {
+      "source": "inputs/source_benchmarks/SEP_benchmark.tsv",
+      "output": "outputs/generated_inputs/SEP_multi_site.tsv",
+      "rows": 32,
+      "requested_sites": 76
+    },
+    "PTR": {
+      "source": "inputs/source_benchmarks/PTR_benchmark.tsv",
+      "output": "outputs/generated_inputs/PTR_multi_site.tsv",
+      "rows": 136,
+      "requested_sites": 274
+    }
+  },
+  "control_modes": {
+    "n_to_c": {
+      "graft_mode": "joint",
+      "site_order": "n_to_c",
+      "minimization_coupling": "sequential",
+      "description": "N-to-C context-aware scan followed by N-to-C sequential OpenMM minimization."
+    },
+    "c_to_n": {
+      "graft_mode": "joint",
+      "site_order": "c_to_n",
+      "minimization_coupling": "sequential",
+      "description": "C-to-N context-aware scan followed by C-to-N sequential OpenMM minimization."
+    },
+    "independent": {
+      "graft_mode": "single",
+      "site_order": "n_to_c",
+      "minimization_coupling": "sequential",
+      "description": "Each target is scanned and minimized separately on the original fully stripped structure."
+    },
+    "joint_min": {
+      "graft_mode": "joint",
+      "site_order": "n_to_c",
+      "minimization_coupling": "joint",
+      "description": "N-to-C context-aware scan followed by one OpenMM minimization containing all modified sites."
+    }
+  }
+}

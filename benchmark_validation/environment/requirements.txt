@@ -1,0 +1,6 @@
+numpy==1.26.4
+biopython==1.87
+pandas==2.1.4
+scipy==1.12.0
+matplotlib==3.8.4
+openmm==8.5.0

@@ -1,0 +1,1858 @@
+[
+  {
+    "site_label": "A:187",
+    "chain_id": "A",
+    "residue_number": 187,
+    "insertion_code": null,
+    "residue_name_original": "TYR",
+    "residue_name_modified": "PTR",
+    "anchor_atom_original": "OH",
+    "base_atom_original": "CZ",
+    "d_anchor_p_original": null,
+    "angle_base_anchor_p_original": null,
+    "anchor_atom_modified": "OH",
+    "base_atom_modified": "CZ",
+    "d_anchor_p_modified": 1.634,
+    "angle_base_anchor_p_modified": 110.1461,
+    "torsion_N_CA_CB_OG": null,
+    "torsion_CA_CB_OG_P": null,
+    "torsion_N_CA_CB_OG1": null,
+    "torsion_CA_CB_OG1_P": null,
+    "torsion_CG2_CB_OG1_P": null,
+    "torsion_CD1_CE1_CZ_OH": -10.1872,
+    "torsion_CE1_CZ_OH_P": -81.6458,
+    "torsion_CE2_CZ_OH_P": 80.5832,
+    "same_residue_contact_count": 8,
+    "nearest_same_residue_contact_distance": 2.512,
+    "same_residue_contacts": [
+      {
+        "phosphate_atom": "P",
+        "self_atom": "CZ",
+        "self_element": "C",
+        "distance": 2.512
+      },
+      {
+        "phosphate_atom": "O1P",
+        "self_atom": "CZ",
+        "self_element": "C",
+        "distance": 2.962
+      },
+      {
+        "phosphate_atom": "O3P",
+        "self_atom": "CZ",
+        "self_element": "C",
+        "distance": 3.031
+      },
+      {
+        "phosphate_atom": "O1P",
+        "self_atom": "CE1",
+        "self_element": "C",
+        "distance": 3.268
+      },
+      {
+        "phosphate_atom": "O3P",
+        "self_atom": "CE2",
+        "self_element": "C",
+        "distance": 3.285
+      },
+      {
+        "phosphate_atom": "P",
+        "self_atom": "CE2",
+        "self_element": "C",
+        "distance": 3.401
+      },
+      {
+        "phosphate_atom": "P",
+        "self_atom": "CE1",
+        "self_element": "C",
+        "distance": 3.42
+      },
+      {
+        "phosphate_atom": "O2P",
+        "self_atom": "CZ",
+        "self_element": "C",
+        "distance": 3.824
+      }
+    ],
+    "plddt_site": 44.41,
+    "plddt_window_mean": 38.11,
+    "plddt_class": "very_low",
+    "clash_count_before": 0,
+    "clash_count_after": 0,
+    "nearest_contact_distance_before": 4.254,
+    "nearest_contact_distance_after": 2.42,
+    "nearby_basic_count_before": 3,
+    "nearby_basic_count_after": 14,
+    "nearby_acidic_count_before": 0,
+    "nearby_acidic_count_after": 0,
+    "nearby_contact_residues_before": [
+      "GLU A:186",
+      "VAL A:188",
+      "HOH A:604",
+      "HOH A:633",
+      "TYR A:233",
+      "ARG A:194",
+      "GOL A:402"
+    ],
+    "nearby_contact_residues_after": [
+      "VAL A:188",
+      "GLU A:186",
+      "ARG A:194",
+      "ARG A:191",
+      "HOH A:635",
+      "HOH A:604",
+      "HOH A:633",
+      "HOH A:683",
+      "TYR A:233",
+      "GOL A:402"
+    ],
+    "electrostatic_score_weighted_before": 0.805,
+    "electrostatic_score_weighted_after": 4.139,
+    "salt_bridges_before": [],
+    "salt_bridges_after": [
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 2.42
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 2.591
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.035
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NE",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.299
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NE",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.313
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.317
+      }
+    ],
+    "salt_bridge_count_before": 0,
+    "salt_bridge_count_after": 6,
+    "salt_bridge_details_before": "",
+    "salt_bridge_details_after": "ARG A:194 NH1 2.42A;ARG A:191 NH2 2.59A;ARG A:194 NH2 3.04A;ARG A:191 NE 3.30A;ARG A:191 NE 3.31A;ARG A:194 NH2 3.32A",
+    "polar_contacts_before": [
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.329
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.241
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.253
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.402
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.795
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.822
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.851
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.894
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.127
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.137
+      }
+    ],
+    "polar_contacts_after": [
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.501
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.331
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.38
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 2.42
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.534
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 2.591
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.846
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 635,
+        "partner_icode": null,
+        "distance": 2.852
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.853
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.859
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.87
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.035
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.053
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.126
+      }
+    ],
+    "polar_contact_count_before": 10,
+    "polar_contact_count_after": 14,
+    "hydrogen_bonds_before": [
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.329
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.253
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.402
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.822
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.851
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.127
+      }
+    ],
+    "hydrogen_bonds_after": [
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.501
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.38
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 2.42
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.534
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 2.591
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.846
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 635,
+        "partner_icode": null,
+        "distance": 2.852
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.859
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.053
+      }
+    ],
+    "hydrogen_bond_count_before": 6,
+    "hydrogen_bond_count_after": 9,
+    "contacts_before": [
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 1.323
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.329
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.241
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.253
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.402
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.419
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.456
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.462
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.795
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.822
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.824
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.851
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.894
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.027
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "CB",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.03
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.056
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.127
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.137
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.312
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.369
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CD1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.394
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.411
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.428
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.51
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.594
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "CD1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.64
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.651
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CB",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.673
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "CE1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.739
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.758
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.798
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.816
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "O3",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.827
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 3.828
+      },
+      {
+        "phosphate_atom": "CZ",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.829
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O1",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.84
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CZ",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.841
+      },
+      {
+        "phosphate_atom": "CG",
+        "partner_atom": "O1",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.851
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.852
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CG1",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.858
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.858
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.878
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "C2",
+        "partner_element": "C",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.885
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CG",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.91
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.957
+      }
+    ],
+    "contacts_after": [
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 1.501
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 1.532
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.331
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.38
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 2.42
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.503
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.518
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.534
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 2.591
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.603
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.846
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 635,
+        "partner_icode": null,
+        "distance": 2.852
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.853
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 2.859
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 2.861
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 2.87
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.035
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.053
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.08
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "CB",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.103
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.118
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.126
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "CZ",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.148
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 683,
+        "partner_icode": null,
+        "distance": 3.237
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "NE",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.299
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "NE",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.313
+      },
+      {
+        "phosphate_atom": "O3P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.317
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 683,
+        "partner_icode": null,
+        "distance": 3.352
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.369
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.369
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CD1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.38
+      },
+      {
+        "phosphate_atom": "O2P",
+        "partner_atom": "CZ",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.387
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.397
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "CB",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.448
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.466
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.502
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "CG",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.569
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.627
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "CD1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.647
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CB",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.727
+      },
+      {
+        "phosphate_atom": "N",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.743
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "CE1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.744
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.746
+      },
+      {
+        "phosphate_atom": "CZ",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.76
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.8
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O1",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.818
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 604,
+        "partner_icode": null,
+        "distance": 3.825
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "O3",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.829
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.836
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CZ",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.838
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.859
+      },
+      {
+        "phosphate_atom": "CA",
+        "partner_atom": "CA",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.86
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "N",
+        "partner_element": "N",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.877
+      },
+      {
+        "phosphate_atom": "CG",
+        "partner_atom": "O1",
+        "partner_element": "O",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.878
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "NH2",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.878
+      },
+      {
+        "phosphate_atom": "CD1",
+        "partner_atom": "C2",
+        "partner_element": "C",
+        "partner_resname": "GOL",
+        "partner_chain": "A",
+        "partner_resseq": 402,
+        "partner_icode": null,
+        "distance": 3.885
+      },
+      {
+        "phosphate_atom": "C",
+        "partner_atom": "CG1",
+        "partner_element": "C",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.895
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CG",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.896
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "C",
+        "partner_element": "C",
+        "partner_resname": "GLU",
+        "partner_chain": "A",
+        "partner_resseq": 186,
+        "partner_icode": null,
+        "distance": 3.9
+      },
+      {
+        "phosphate_atom": "O",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "VAL",
+        "partner_chain": "A",
+        "partner_resseq": 188,
+        "partner_icode": null,
+        "distance": 3.904
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 635,
+        "partner_icode": null,
+        "distance": 3.904
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 683,
+        "partner_icode": null,
+        "distance": 3.908
+      },
+      {
+        "phosphate_atom": "P",
+        "partner_atom": "NE",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.931
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 635,
+        "partner_icode": null,
+        "distance": 3.936
+      },
+      {
+        "phosphate_atom": "O1P",
+        "partner_atom": "CD",
+        "partner_element": "C",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 191,
+        "partner_icode": null,
+        "distance": 3.965
+      },
+      {
+        "phosphate_atom": "CB",
+        "partner_atom": "O",
+        "partner_element": "O",
+        "partner_resname": "HOH",
+        "partner_chain": "A",
+        "partner_resseq": 633,
+        "partner_icode": null,
+        "distance": 3.973
+      },
+      {
+        "phosphate_atom": "CZ",
+        "partner_atom": "NH1",
+        "partner_element": "N",
+        "partner_resname": "ARG",
+        "partner_chain": "A",
+        "partner_resseq": 194,
+        "partner_icode": null,
+        "distance": 3.98
+      },
+      {
+        "phosphate_atom": "CE1",
+        "partner_atom": "CE1",
+        "partner_element": "C",
+        "partner_resname": "TYR",
+        "partner_chain": "A",
+        "partner_resseq": 233,
+        "partner_icode": null,
+        "distance": 3.998
+      }
+    ],
+    "sasa_unmodified": 66.3957,
+    "sasa_modified": 71.6037,
+    "sasa_delta": 5.208,
+    "sasa_shared_atoms_before": 66.3957,
+    "sasa_shared_atoms_after": 55.3086,
+    "shared_atom_names": [
+      "C",
+      "CA",
+      "CB",
+      "CD1",
+      "CD2",
+      "CE1",
+      "CE2",
+      "CG",
+      "CZ",
+      "N",
+      "O",
+      "OH"
+    ],
+    "neighbor_sasa_delta": -8.5724,
+    "local_ca_rmsd": 0.0208,
+    "cb_neighborhood_before": 5,
+    "cb_neighborhood_after": 5,
+    "cb_neighborhood_residues_before": "GLU A:186 4.365A;VAL A:188 6.139A;SER A:202 7.122A;ILE A:198 7.285A;TYR A:233 7.514A",
+    "cb_neighborhood_residues_after": "GLU A:186 4.352A;VAL A:188 6.152A;SER A:202 7.125A;ILE A:198 7.309A;TYR A:233 7.529A",
+    "cb_contact_distances_before": "GLU A:186 4.365A;VAL A:188 6.139A;TYR A:233 7.514A;ARG A:194 8.65A;ARG A:191 9.272A",
+    "cb_contact_distances_after": "GLU A:186 4.352A;VAL A:188 6.152A;TYR A:233 7.529A;ARG A:194 8.681A;ARG A:191 9.298A",
+    "cb_dists_before_raw": [
+      {
+        "chain": "A",
+        "resseq": 186,
+        "icode": " ",
+        "resname": "GLU",
+        "cb_distance": 4.365
+      },
+      {
+        "chain": "A",
+        "resseq": 188,
+        "icode": " ",
+        "resname": "VAL",
+        "cb_distance": 6.139
+      },
+      {
+        "chain": "A",
+        "resseq": 233,
+        "icode": " ",
+        "resname": "TYR",
+        "cb_distance": 7.514
+      },
+      {
+        "chain": "A",
+        "resseq": 194,
+        "icode": " ",
+        "resname": "ARG",
+        "cb_distance": 8.65
+      },
+      {
+        "chain": "A",
+        "resseq": 191,
+        "icode": " ",
+        "resname": "ARG",
+        "cb_distance": 9.272
+      }
+    ],
+    "cb_dists_after_raw": [
+      {
+        "chain": "A",
+        "resseq": 186,
+        "icode": " ",
+        "resname": "GLU",
+        "cb_distance": 4.352
+      },
+      {
+        "chain": "A",
+        "resseq": 188,
+        "icode": " ",
+        "resname": "VAL",
+        "cb_distance": 6.152
+      },
+      {
+        "chain": "A",
+        "resseq": 233,
+        "icode": " ",
+        "resname": "TYR",
+        "cb_distance": 7.529
+      },
+      {
+        "chain": "A",
+        "resseq": 194,
+        "icode": " ",
+        "resname": "ARG",
+        "cb_distance": 8.681
+      },
+      {
+        "chain": "A",
+        "resseq": 191,
+        "icode": " ",
+        "resname": "ARG",
+        "cb_distance": 9.298
+      }
+    ],
+    "site_repulsion_energy_before": 19.4962,
+    "site_repulsion_energy_after": 9.407,
+    "site_repulsion_energy_delta": -10.0892,
+    "site_repulsion_energy_delta_per_atom": -0.6306,
+    "graft_mode": "joint",
+    "prescan_context": "sequential_grafted_model_premin",
+    "applied_initial_rotations": "",
+    "optimization_strategy": "sequential_grafted_prescan_then_sequential_site_local_minimization_per_pose",
+    "prescan_status": "OK",
+    "prescan_score_before": 6.5065,
+    "prescan_score_after": 4.5658,
+    "prescan_rotations": "CZ-OH:120.0",
+    "intrinsic_site_fit": "moderate",
+    "contextual_site_fit": "moderate",
+    "n_flex_neighbors": 14,
+    "flex_neighbors": "A:185;A:186;A:202;A:188;A:205;A:198;A:194;A:233;A:189;A:170;A:191;A:232;A:190;A:231",
+    "pts_clash_penalty": 0,
+    "pts_energy_term": -0.6306,
+    "pts_sasa_term": -8.5724,
+    "phospho_quality_label": "amber",
+    "phosphofill_confidence": 88,
+    "confidence_tier": "high",
+    "prescan_score_min": -2.7971,
+    "prescan_score_max": -0.1967,
+    "prescan_score_mean": -1.4152,
+    "prescan_n_zero_clash": 12,
+    "prescan_n_total_steps": 12,
+    "prescan_zero_clash_arc": 360.0,
+    "exposure_class_unmodified": "exposed",
+    "exposure_class_modified": "exposed",
+    "graft_info_found": true,
+    "interpretation_flags": [
+      "Low-confidence AlphaFold site",
+      "Low-confidence local neighborhood",
+      "No residual phosphate clashes",
+      "Local steric repulsion improved after grafting/minimization",
+      "Nearby basic environment may support phosphate",
+      "Very close phosphate contact after phosphorylation",
+      "Minimal local backbone change after phosphorylation",
+      "Overall phosphate accommodation is moderate"
+    ],
+    "overall_interpretation": "low-confidence site with phosphate partially accommodated after joint contextual minimization"
+  }
+]

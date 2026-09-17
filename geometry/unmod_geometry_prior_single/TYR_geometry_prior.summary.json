@@ -1,0 +1,148 @@
+{
+  "global": {
+    "n_rows": 600,
+    "dedup_scope": "pdb"
+  },
+  "status_counts": {
+    "ok": 567,
+    "missing_required_atoms:OH,CZ": 33
+  },
+  "by_resname": {
+    "THR": {
+      "n": 2,
+      "anchor_atom": "OG1",
+      "base_atom": "CB",
+      "context_n_sites": {
+        "n": 2,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "d_anchor_p": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "angle_base_anchor_p": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O1P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O2P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O3P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "torsions": {
+        "torsion_N_CA_CB_OG1": {
+          "n": 2,
+          "circular_mean_deg": 183.93089434297136,
+          "median_deg": 3.9308943429713565,
+          "hist_30deg": {
+            "[-150,-120)": 1,
+            "[120,150)": 1
+          }
+        },
+        "torsion_CG2_CB_OG1_CA": {
+          "n": 2,
+          "circular_mean_deg": 58.20959552884864,
+          "median_deg": 58.209595528848645,
+          "hist_30deg": {
+            "[30,60)": 2
+          }
+        }
+      }
+    },
+    "TYR": {
+      "n": 565,
+      "anchor_atom": "OH",
+      "base_atom": "CZ",
+      "context_n_sites": {
+        "n": 565,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "d_anchor_p": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "angle_base_anchor_p": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O1P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O2P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "d_P_O3P": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null,
+        "min": null,
+        "max": null
+      },
+      "torsions": {
+        "torsion_CD1_CE1_CZ_OH": {
+          "n": 565,
+          "circular_mean_deg": 0.004874778520331802,
+          "median_deg": 0.02197731981316935,
+          "hist_30deg": {
+            "[-30,0)": 265,
+            "[0,30)": 300
+          }
+        }
+      }
+    }
+  }
+}

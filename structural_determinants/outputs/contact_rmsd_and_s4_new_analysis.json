@@ -1,0 +1,734 @@
+{
+  "question": "Retrospective association of experimental contact class with reconstructed phosphate RMSD",
+  "unit": "PDB structure record; bootstrap resampling cluster is accession/protein",
+  "primary_contrast": "salt_bridge_like versus hbond_like + water_mediated_like + none_obvious",
+  "sensitivity_contrasts": [
+    "sensitivity_salt_vs_none",
+    "sensitivity_salt_vs_none_or_water"
+  ],
+  "interpretation_limit": "Experimental phosphate coordinates define the contact class; this is not a prospective predictor or causal test.",
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20260914,
+    "interval": "2.5th and 97.5th percentiles of protein-cluster bootstrap contrasts"
+  },
+  "rmsd": {
+    "TPO": {
+      "exact_joined_structure_records_n": 319,
+      "unique_proteins_n": 56,
+      "interaction_class_counts": {
+        "salt_bridge_like": 264,
+        "hbond_like": 12,
+        "water_mediated_like": 12,
+        "none_obvious": 31
+      },
+      "contrasts": {
+        "primary_salt_vs_all_other": {
+          "class_definition": [
+            "salt_bridge_like",
+            "hbond_like",
+            "water_mediated_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 55,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 14,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 14,
+              "salt_median_angstrom": 0.4104,
+              "other_median_angstrom": 0.4251,
+              "median_difference_salt_minus_other_angstrom": -0.01469999999999999,
+              "salt_recovery_le_1A_pct": 79.16666666666667,
+              "other_recovery_le_1A_pct": 81.81818181818181,
+              "recovery_difference_salt_minus_other_pp": -2.6515151515151603
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 55,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 14,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 14,
+              "salt_median_angstrom": 0.40805,
+              "other_median_angstrom": 0.4052,
+              "median_difference_salt_minus_other_angstrom": 0.002850000000000019,
+              "salt_recovery_le_1A_pct": 87.87878787878788,
+              "other_recovery_le_1A_pct": 89.0909090909091,
+              "recovery_difference_salt_minus_other_pp": -1.2121212121212088
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.42945,
+                  0.4152337499999995
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -29.613606524264004,
+                  28.921909041394336
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.2177325,
+                  0.2821025
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -15.07568512333257,
+                  19.58581349206345
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 31,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 8,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 8,
+              "salt_median_angstrom": 0.4104,
+              "other_median_angstrom": 0.3189,
+              "median_difference_salt_minus_other_angstrom": 0.09149999999999997,
+              "salt_recovery_le_1A_pct": 79.16666666666667,
+              "other_recovery_le_1A_pct": 83.87096774193549,
+              "recovery_difference_salt_minus_other_pp": -4.704301075268824
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 31,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 8,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 8,
+              "salt_median_angstrom": 0.40805,
+              "other_median_angstrom": 0.3144,
+              "median_difference_salt_minus_other_angstrom": 0.09365000000000001,
+              "salt_recovery_le_1A_pct": 87.87878787878788,
+              "other_recovery_le_1A_pct": 90.3225806451613,
+              "recovery_difference_salt_minus_other_pp": -2.4437927663734094
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 4998,
+            "skipped_replicates": 2,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.8917449999999998,
+                  0.46132624999999955
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -33.88673469387756,
+                  48.99058832179852
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.50074375,
+                  0.3426
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -17.65143153159221,
+                  37.57130117555332
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none_or_water": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious",
+            "water_mediated_like"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 43,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 11,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 11,
+              "salt_median_angstrom": 0.4104,
+              "other_median_angstrom": 0.3486,
+              "median_difference_salt_minus_other_angstrom": 0.061799999999999966,
+              "salt_recovery_le_1A_pct": 79.16666666666667,
+              "other_recovery_le_1A_pct": 86.04651162790698,
+              "recovery_difference_salt_minus_other_pp": -6.879844961240311
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 264,
+              "other_n": 43,
+              "salt_proteins_n": 45,
+              "other_proteins_n": 11,
+              "salt_protein_positions_n": 46,
+              "other_protein_positions_n": 11,
+              "salt_median_angstrom": 0.40805,
+              "other_median_angstrom": 0.3449,
+              "median_difference_salt_minus_other_angstrom": 0.06315000000000004,
+              "salt_recovery_le_1A_pct": 87.87878787878788,
+              "other_recovery_le_1A_pct": 90.69767441860465,
+              "recovery_difference_salt_minus_other_pp": -2.8188865398167673
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.46230249999999995,
+                  0.45416374999999903
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -34.00119131538136,
+                  31.482683982683962
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.10636124999999999,
+                  0.3203999999999999
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -16.657947356448823,
+                  21.699805875998464
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "SEP": {
+      "exact_joined_structure_records_n": 239,
+      "unique_proteins_n": 72,
+      "interaction_class_counts": {
+        "salt_bridge_like": 153,
+        "hbond_like": 18,
+        "water_mediated_like": 45,
+        "none_obvious": 23
+      },
+      "contrasts": {
+        "primary_salt_vs_all_other": {
+          "class_definition": [
+            "salt_bridge_like",
+            "hbond_like",
+            "water_mediated_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 86,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 38,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 38,
+              "salt_median_angstrom": 0.5575,
+              "other_median_angstrom": 0.51675,
+              "median_difference_salt_minus_other_angstrom": 0.04074999999999995,
+              "salt_recovery_le_1A_pct": 73.20261437908496,
+              "other_recovery_le_1A_pct": 65.11627906976744,
+              "recovery_difference_salt_minus_other_pp": 8.086335309317516
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 86,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 38,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 38,
+              "salt_median_angstrom": 0.4714,
+              "other_median_angstrom": 0.4744,
+              "median_difference_salt_minus_other_angstrom": -0.0030000000000000027,
+              "salt_recovery_le_1A_pct": 90.19607843137256,
+              "other_recovery_le_1A_pct": 83.72093023255815,
+              "recovery_difference_salt_minus_other_pp": 6.475148198814407
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.8777999999999999,
+                  0.236
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -8.918653550148413,
+                  38.87503434117715
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.2559225,
+                  0.16135249999999995
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -3.7984633626177655,
+                  25.798425952436332
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 23,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 17,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 17,
+              "salt_median_angstrom": 0.5575,
+              "other_median_angstrom": 1.2593,
+              "median_difference_salt_minus_other_angstrom": -0.7018000000000001,
+              "salt_recovery_le_1A_pct": 73.20261437908496,
+              "other_recovery_le_1A_pct": 43.47826086956522,
+              "recovery_difference_salt_minus_other_pp": 29.724353509519748
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 23,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 17,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 17,
+              "salt_median_angstrom": 0.4714,
+              "other_median_angstrom": 0.4908,
+              "median_difference_salt_minus_other_angstrom": -0.01940000000000003,
+              "salt_recovery_le_1A_pct": 90.19607843137256,
+              "other_recovery_le_1A_pct": 65.21739130434783,
+              "recovery_difference_salt_minus_other_pp": 24.978687127024724
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -2.137,
+                  0.10099999999999998
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  1.4814037145030463,
+                  67.19471634503603
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.8987,
+                  0.12863124999999953
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  2.896018587542502,
+                  58.22558205650892
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none_or_water": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious",
+            "water_mediated_like"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 68,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 27,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 27,
+              "salt_median_angstrom": 0.5575,
+              "other_median_angstrom": 0.4702,
+              "median_difference_salt_minus_other_angstrom": 0.08729999999999999,
+              "salt_recovery_le_1A_pct": 73.20261437908496,
+              "other_recovery_le_1A_pct": 66.17647058823529,
+              "recovery_difference_salt_minus_other_pp": 7.0261437908496704
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 153,
+              "other_n": 68,
+              "salt_proteins_n": 43,
+              "other_proteins_n": 27,
+              "salt_protein_positions_n": 43,
+              "other_protein_positions_n": 27,
+              "salt_median_angstrom": 0.4714,
+              "other_median_angstrom": 0.43174999999999997,
+              "median_difference_salt_minus_other_angstrom": 0.03965000000000002,
+              "salt_recovery_le_1A_pct": 90.19607843137256,
+              "other_recovery_le_1A_pct": 83.82352941176471,
+              "recovery_difference_salt_minus_other_pp": 6.372549019607843
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -1.4542000000000002,
+                  0.3027324999999995
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -10.729472384809567,
+                  49.897213688853576
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.31170125,
+                  0.22055000000000002
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -4.192865881530477,
+                  33.46960958296361
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "PTR": {
+      "exact_joined_structure_records_n": 217,
+      "unique_proteins_n": 43,
+      "interaction_class_counts": {
+        "salt_bridge_like": 180,
+        "hbond_like": 13,
+        "water_mediated_like": 17,
+        "none_obvious": 7
+      },
+      "contrasts": {
+        "primary_salt_vs_all_other": {
+          "class_definition": [
+            "salt_bridge_like",
+            "hbond_like",
+            "water_mediated_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 37,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 14,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 14,
+              "salt_median_angstrom": 1.0018,
+              "other_median_angstrom": 1.5274,
+              "median_difference_salt_minus_other_angstrom": -0.5256000000000001,
+              "salt_recovery_le_1A_pct": 49.44444444444444,
+              "other_recovery_le_1A_pct": 35.13513513513514,
+              "recovery_difference_salt_minus_other_pp": 14.30930930930931
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 37,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 14,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 14,
+              "salt_median_angstrom": 0.6027,
+              "other_median_angstrom": 0.7957,
+              "median_difference_salt_minus_other_angstrom": -0.19299999999999995,
+              "salt_recovery_le_1A_pct": 79.44444444444444,
+              "other_recovery_le_1A_pct": 56.75675675675676,
+              "recovery_difference_salt_minus_other_pp": 22.687687687687685
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -1.6240999999999999,
+                  -0.05340000000000289
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -1.2394179894179878,
+                  32.7237161531279
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.71827625,
+                  0.08785124999999991
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  4.998833452979186,
+                  39.52334780793021
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 7,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 5,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 5,
+              "salt_median_angstrom": 1.0018,
+              "other_median_angstrom": 2.3841,
+              "median_difference_salt_minus_other_angstrom": -1.3823,
+              "salt_recovery_le_1A_pct": 49.44444444444444,
+              "other_recovery_le_1A_pct": 14.285714285714286,
+              "recovery_difference_salt_minus_other_pp": 35.15873015873016
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 7,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 5,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 5,
+              "salt_median_angstrom": 0.6027,
+              "other_median_angstrom": 1.1039,
+              "median_difference_salt_minus_other_angstrom": -0.5012000000000001,
+              "salt_recovery_le_1A_pct": 79.44444444444444,
+              "other_recovery_le_1A_pct": 42.857142857142854,
+              "recovery_difference_salt_minus_other_pp": 36.58730158730158
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 4982,
+            "skipped_replicates": 18,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -2.2576,
+                  -0.43379999999999996
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  9.905819815777443,
+                  55.2819017320608
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -2.4401,
+                  0.0676
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  6.772822765469827,
+                  80.0
+                ]
+              }
+            }
+          }
+        },
+        "sensitivity_salt_vs_none_or_water": {
+          "class_definition": [
+            "salt_bridge_like",
+            "none_obvious",
+            "water_mediated_like"
+          ],
+          "metrics": {
+            "rank1_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 24,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 10,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 10,
+              "salt_median_angstrom": 1.0018,
+              "other_median_angstrom": 1.60845,
+              "median_difference_salt_minus_other_angstrom": -0.6066499999999999,
+              "salt_recovery_le_1A_pct": 49.44444444444444,
+              "other_recovery_le_1A_pct": 37.5,
+              "recovery_difference_salt_minus_other_pp": 11.944444444444446
+            },
+            "top3_best_postmin_rmsd": {
+              "salt_n": 180,
+              "other_n": 24,
+              "salt_proteins_n": 34,
+              "other_proteins_n": 10,
+              "salt_protein_positions_n": 37,
+              "other_protein_positions_n": 10,
+              "salt_median_angstrom": 0.6027,
+              "other_median_angstrom": 0.7261,
+              "median_difference_salt_minus_other_angstrom": -0.12339999999999995,
+              "salt_recovery_le_1A_pct": 79.44444444444444,
+              "other_recovery_le_1A_pct": 62.5,
+              "recovery_difference_salt_minus_other_pp": 16.94444444444444
+            }
+          },
+          "cluster_bootstrap": {
+            "valid_replicates": 5000,
+            "skipped_replicates": 0,
+            "metrics": {
+              "rank1_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -1.9098024999999998,
+                  0.30415249999999927
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -13.871813725490199,
+                  38.85576149425278
+                ]
+              },
+              "top3_best_postmin_rmsd": {
+                "median_difference_95pct_cluster_bootstrap_ci_angstrom": [
+                  -0.68284375,
+                  0.1446099999999998
+                ],
+                "recovery_difference_95pct_cluster_bootstrap_ci_pp": [
+                  -2.9147782661833705,
+                  46.25695503852035
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "s4_single_all_nesting": {
+    "TPO": {
+      "single_n": 276,
+      "all_n": 508,
+      "single_missing_from_all_n": 1,
+      "single_missing_from_all_examples": [
+        [
+          "Q9NWZ3",
+          "8ucc",
+          "B",
+          345,
+          "TPO"
+        ]
+      ],
+      "overlap_field_mismatch_n": {
+        "orientation_toward_basic": 0,
+        "phosphate_to_basic_angle_deg": 0,
+        "nearest_basic_dist": 0,
+        "same_side_as_nearest_basic": 0
+      },
+      "additional_n": 233,
+      "additional_n_target_sites_distribution": {
+        "1": 66,
+        "2": 146,
+        "3": 12,
+        "4": 4,
+        "5": 5
+      },
+      "additional_measurable_orientation_n": 217,
+      "additional_toward_n": 142,
+      "additional_toward_pct": 65.43778801843318
+    },
+    "SEP": {
+      "single_n": 228,
+      "all_n": 388,
+      "single_missing_from_all_n": 1,
+      "single_missing_from_all_examples": [
+        [
+          "Q04759",
+          "5f9e",
+          "B",
+          695,
+          "SEP"
+        ]
+      ],
+      "overlap_field_mismatch_n": {
+        "orientation_toward_basic": 0,
+        "phosphate_to_basic_angle_deg": 0,
+        "nearest_basic_dist": 0,
+        "same_side_as_nearest_basic": 0
+      },
+      "additional_n": 161,
+      "additional_n_target_sites_distribution": {
+        "1": 90,
+        "2": 44,
+        "3": 21,
+        "4": 6
+      },
+      "additional_measurable_orientation_n": 128,
+      "additional_toward_n": 42,
+      "additional_toward_pct": 32.8125
+    },
+    "PTR": {
+      "single_n": 208,
+      "all_n": 501,
+      "single_missing_from_all_n": 0,
+      "single_missing_from_all_examples": [],
+      "overlap_field_mismatch_n": {
+        "orientation_toward_basic": 0,
+        "phosphate_to_basic_angle_deg": 0,
+        "nearest_basic_dist": 0,
+        "same_side_as_nearest_basic": 0
+      },
+      "additional_n": 293,
+      "additional_n_target_sites_distribution": {
+        "1": 20,
+        "2": 268,
+        "3": 5
+      },
+      "additional_measurable_orientation_n": 288,
+      "additional_toward_n": 101,
+      "additional_toward_pct": 35.06944444444444
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\structural_determinants_audit\\outputs\\benchmark_joined_environment.tsv",
+      "sha256": "f2cb8e0286624e229f6e20fdc8153b4c2a741fa9107a4a05c8a6910b3864a95e"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\TPO_context_audit.tsv",
+      "sha256": "4581bc6b30150a7c27fab9cc3bec17a3b33b4c41a588b4ecf4c47d11b2dc0396"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\TPO_context_audit.tsv",
+      "sha256": "e11045e16a7bc63c9efa51247b54bcf800bde3b61c99ac0662c9ee64e98182f1"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\SEP_context_audit.tsv",
+      "sha256": "ef7010221b906764adb15ef897ffa6555ce42de687a431355b383c0e89a9a626"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\SEP_context_audit.tsv",
+      "sha256": "fe1e702696b14f8fe8f9fdf1ad03fce159b7964064f81eec7b6bb1201b8e5725"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\PTR_context_audit.tsv",
+      "sha256": "94c329ba99e50773c8d12a0db5bb5c1402c3e92b017649d47ca2fccd656574ce"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\PTR_context_audit.tsv",
+      "sha256": "fdbeb8e909aeac75edf5bc11f40ee05932757f82d440083de7e6b053969e6a2c"
+    }
+  ]
+}

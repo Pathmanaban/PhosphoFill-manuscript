@@ -1,0 +1,106 @@
+{
+  "phosphofill_single_site_n": 790,
+  "phosphofill_unique_site_keys": 790,
+  "all_requested_site_intersection_n": 790,
+  "all_successful_complete_case_n": 785,
+  "methods": [
+    {
+      "method": "PyTMs default",
+      "requested_rows": 790,
+      "unique_requested_sites": 790,
+      "ok_rows": 789,
+      "failed_rows": 1,
+      "coordinate_rows_checked": 789,
+      "coordinate_rows_passed": 789,
+      "maximum_rmsd_recalculation_difference_A": 5.150880973037175e-05,
+      "default_dihedral_summary": {
+        "TPO": {
+          "n": 328,
+          "median_deg": -57.732597962898325,
+          "circular_resultant_length": 0.9845467606750732
+        },
+        "SEP": {
+          "n": 241,
+          "median_deg": -179.97877530599357,
+          "circular_resultant_length": 0.9999999763270321
+        },
+        "PTR": {
+          "n": 217,
+          "median_deg": 89.99858732467317,
+          "circular_resultant_length": 0.9999999789146263
+        }
+      },
+      "failed_messages": [
+        {
+          "site_key": "O00418|9pcq|TPO|A|348",
+          "message": "Chain id ('B00A') exceeds PDB format limit."
+        }
+      ],
+      "input_sha256": "153a8c8c1dd072cc306fa06206f1c5242b7b9fc0f07c97bbd069394bd725bccc",
+      "requested_keys_match_phosphofill": true
+    },
+    {
+      "method": "PyTMs optimised",
+      "requested_rows": 790,
+      "unique_requested_sites": 790,
+      "ok_rows": 786,
+      "failed_rows": 4,
+      "coordinate_rows_checked": 786,
+      "coordinate_rows_passed": 786,
+      "maximum_rmsd_recalculation_difference_A": 4.9820432106217893e-05,
+      "default_dihedral_summary": null,
+      "failed_messages": [
+        {
+          "site_key": "O00418|9pcq|TPO|A|348",
+          "message": "Chain id ('B00A') exceeds PDB format limit."
+        },
+        {
+          "site_key": "P28482|6oph|TPO|A|185",
+          "message": " Error: Selection 3: Not found\nTraceback (most recent call last):\n  File \"pytms_work_optimized/P28482_TPO_6oph_A_185_pytms.pdb.pml.py\", line 32, in <module>\n    pytms.phosphorylate(selection=sel, optimize=1, interval=30, remove_radius=0)\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pmg_tk\\startup\\pytms.py\", line 5563, in phosphorylate\n    cmd.get_dihedral(\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pymol\\querying.py\", line 1079, in get_dihedral\n    r = _cmd.get_dihe(_self._COb,str(atom1),str(atom2),str(atom3),str(atom4),int(state)-1)\npymol.CmdException:  Error: Selection 3: Not found\n"
+        },
+        {
+          "site_key": "P28482|8u8j|TPO|A|185",
+          "message": " Error: Selection 3: Not found\nTraceback (most recent call last):\n  File \"pytms_work_optimized/P28482_TPO_8u8j_A_185_pytms.pdb.pml.py\", line 32, in <module>\n    pytms.phosphorylate(selection=sel, optimize=1, interval=30, remove_radius=0)\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pmg_tk\\startup\\pytms.py\", line 5563, in phosphorylate\n    cmd.get_dihedral(\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pymol\\querying.py\", line 1079, in get_dihedral\n    r = _cmd.get_dihe(_self._COb,str(atom1),str(atom2),str(atom3),str(atom4),int(state)-1)\npymol.CmdException:  Error: Selection 3: Not found\n"
+        },
+        {
+          "site_key": "P28482|8u8k|TPO|A|185",
+          "message": " Error: Selection 3: Not found\nTraceback (most recent call last):\n  File \"pytms_work_optimized/P28482_TPO_8u8k_A_185_pytms.pdb.pml.py\", line 32, in <module>\n    pytms.phosphorylate(selection=sel, optimize=1, interval=30, remove_radius=0)\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pmg_tk\\startup\\pytms.py\", line 5563, in phosphorylate\n    cmd.get_dihedral(\n  File \"C:\\Users\\drpat\\AppData\\Local\\Schrodinger\\PyMOL2\\lib\\site-packages\\pymol\\querying.py\", line 1079, in get_dihedral\n    r = _cmd.get_dihe(_self._COb,str(atom1),str(atom2),str(atom3),str(atom4),int(state)-1)\npymol.CmdException:  Error: Selection 3: Not found\n"
+        }
+      ],
+      "input_sha256": "5872d0fa22da7d76d83d61d915ff70f3cc7b57d32f7bd1ce34a2825c8f0695d2",
+      "requested_keys_match_phosphofill": true
+    },
+    {
+      "method": "PTM-Psi",
+      "requested_rows": 790,
+      "unique_requested_sites": 790,
+      "ok_rows": 786,
+      "failed_rows": 4,
+      "coordinate_rows_checked": 786,
+      "coordinate_rows_passed": 786,
+      "maximum_rmsd_recalculation_difference_A": 5.064953091205027e-05,
+      "default_dihedral_summary": null,
+      "failed_messages": [
+        {
+          "site_key": "P28482|6oph|TPO|A|185",
+          "message": "!!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR176'\nkingError(\"Atom '{}' was not found in Residue '{}:{}{}'\".format(atom,self.chain,self.name,self.resid))\nptmpsi.exceptions.MyDockingError: !!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR176'\n"
+        },
+        {
+          "site_key": "P28482|8u8j|TPO|A|185",
+          "message": "!!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR180'\nkingError(\"Atom '{}' was not found in Residue '{}:{}{}'\".format(atom,self.chain,self.name,self.resid))\nptmpsi.exceptions.MyDockingError: !!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR180'\n"
+        },
+        {
+          "site_key": "P28482|8u8k|TPO|A|185",
+          "message": "!!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR177'\nkingError(\"Atom '{}' was not found in Residue '{}:{}{}'\".format(atom,self.chain,self.name,self.resid))\nptmpsi.exceptions.MyDockingError: !!! Error !!!!\n\tAtom 'OG1' was not found in Residue 'A:THR177'\n"
+        },
+        {
+          "site_key": "P29320|2qob|PTR|A|701",
+          "message": "\"Residue 'TYR93' could not be found\"\n/Benchmark_combined_final/PTMPSI/ptmpsi/protein/tools.py\", line 44, in get_residue\n    raise KeyError(\"Residue '{}' could not be found\".format(residue))\nKeyError: \"Residue 'TYR93' could not be found\"\n"
+        }
+      ],
+      "input_sha256": "29369a33226405be2c64819895a4037e27ab195bc273df14a5a4c837a29020b8",
+      "requested_keys_match_phosphofill": true
+    }
+  ],
+  "conclusion": "Comparator coordinates are independent of the corrected PhosphoFill rank-2/rank-3 minimisation. A comparator rerun is unnecessary if every requested key matches and every archived successful coordinate row passes recalculation."
+}

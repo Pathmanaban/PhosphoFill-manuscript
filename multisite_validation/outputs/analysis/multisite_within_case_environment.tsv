@@ -1,0 +1,7 @@
+group	feature	n_sites	count	fraction	n_mixed_cases
+Always ≤1.0 Å	At least one basic contact	82	73	0.890244	81
+Always ≤1.0 Å	High reference-pose support	82	40	0.487805	81
+Always ≤1.0 Å	β-strand environment	82	49	0.597561	81
+Always >1.5 Å	At least one basic contact	81	59	0.728395	81
+Always >1.5 Å	High reference-pose support	81	32	0.395062	81
+Always >1.5 Å	β-strand environment	81	24	0.296296	81

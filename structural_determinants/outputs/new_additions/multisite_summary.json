@@ -1,0 +1,136 @@
+{
+  "definitions": {
+    "paired_key": "accession and residue position; structure medians within state",
+    "paired_query": "same OG1/OG/OH bridging oxygen in both states, nearest selected Arg/Lys/His atom in the same chain; no distance cap",
+    "multi_join": "accession, PDB ID, chain, residue position, modified residue type",
+    "multi_contrast": "experimental salt_bridge_like audit class versus all other classes",
+    "bootstrap": "5000 accession-cluster resamples, percentile 95% intervals"
+  },
+  "paired": null,
+  "multisite": {
+    "by_residue": {
+      "TPO": {
+        "successful_primary_type_multi_n": 162,
+        "exact_context_matches_n": 160,
+        "unmatched_n": 2,
+        "salt_n": 123,
+        "other_n": 37,
+        "proteins_n": 20,
+        "structures_n": 80,
+        "interaction_class_counts": {
+          "hbond_like": 8,
+          "none_obvious": 22,
+          "salt_bridge_like": 123,
+          "water_mediated_like": 7
+        },
+        "rank1_postmin_rmsd": {
+          "salt_median_A": 0.9328,
+          "other_median_A": 1.2831,
+          "median_difference_salt_minus_other_A": -0.35029999999999994,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -0.95066625,
+            -0.00893000000000009
+          ],
+          "salt_recovery_le1A_pct": 50.40650406504065,
+          "other_recovery_le1A_pct": 27.027027027027028
+        },
+        "top3_best_postmin_rmsd": {
+          "salt_median_A": 0.5758,
+          "other_median_A": 0.7884,
+          "median_difference_salt_minus_other_A": -0.2126,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -0.6428999999999999,
+            0.15270000000000006
+          ],
+          "salt_recovery_le1A_pct": 68.29268292682927,
+          "other_recovery_le1A_pct": 64.86486486486487
+        }
+      },
+      "SEP": {
+        "successful_primary_type_multi_n": 59,
+        "exact_context_matches_n": 57,
+        "unmatched_n": 2,
+        "salt_n": 30,
+        "other_n": 27,
+        "proteins_n": 21,
+        "structures_n": 31,
+        "interaction_class_counts": {
+          "hbond_like": 5,
+          "none_obvious": 12,
+          "salt_bridge_like": 30,
+          "water_mediated_like": 10
+        },
+        "rank1_postmin_rmsd": {
+          "salt_median_A": 0.8328500000000001,
+          "other_median_A": 1.4563,
+          "median_difference_salt_minus_other_A": -0.6234499999999998,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -2.1320975,
+            -0.04898000000000044
+          ],
+          "salt_recovery_le1A_pct": 60.0,
+          "other_recovery_le1A_pct": 40.74074074074074
+        },
+        "top3_best_postmin_rmsd": {
+          "salt_median_A": 0.5841,
+          "other_median_A": 0.5329,
+          "median_difference_salt_minus_other_A": 0.05119999999999991,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -0.6703000000000001,
+            0.38260000000000005
+          ],
+          "salt_recovery_le1A_pct": 80.0,
+          "other_recovery_le1A_pct": 62.96296296296296
+        }
+      },
+      "PTR": {
+        "successful_primary_type_multi_n": 273,
+        "exact_context_matches_n": 273,
+        "unmatched_n": 0,
+        "salt_n": 213,
+        "other_n": 60,
+        "proteins_n": 13,
+        "structures_n": 136,
+        "interaction_class_counts": {
+          "hbond_like": 0,
+          "none_obvious": 37,
+          "salt_bridge_like": 213,
+          "water_mediated_like": 23
+        },
+        "rank1_postmin_rmsd": {
+          "salt_median_A": 0.9642,
+          "other_median_A": 1.55905,
+          "median_difference_salt_minus_other_A": -0.5948500000000001,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -1.5787,
+            0.05019999999999991
+          ],
+          "salt_recovery_le1A_pct": 52.582159624413144,
+          "other_recovery_le1A_pct": 35.0
+        },
+        "top3_best_postmin_rmsd": {
+          "salt_median_A": 0.6002,
+          "other_median_A": 0.7169000000000001,
+          "median_difference_salt_minus_other_A": -0.11670000000000014,
+          "difference_95pct_protein_cluster_bootstrap_ci_A": [
+            -0.6265075,
+            0.22424999999999995
+          ],
+          "salt_recovery_le1A_pct": 77.46478873239437,
+          "other_recovery_le1A_pct": 60.0
+        }
+      }
+    },
+    "all_successful_multi_n": 494,
+    "all_exact_matches_n": 490,
+    "unmatched_n": 4
+  },
+  "source_sha256": {
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\PTR_postmin.tsv": "0929c92f280bab80f9d95a97dd088ee7022eb9f1c663b93f8089854a0fde3ee9",
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\SEP_postmin.tsv": "e0734aae6fc531c754001ec1070bc47ce30dcb9f8e61d6d5a68b1b8b19f020cf",
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\TPO_postmin.tsv": "48b27d56f2270aa2fa6efc7a301ec0c8360b5116bcbdbf981c54b0f4af6bca92",
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\PTR_context_audit.tsv": "fdbeb8e909aeac75edf5bc11f40ee05932757f82d440083de7e6b053969e6a2c",
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\SEP_context_audit.tsv": "fe1e702696b14f8fe8f9fdf1ad03fce159b7964064f81eec7b6bb1201b8e5725",
+    "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\TPO_context_audit.tsv": "e11045e16a7bc63c9efa51247b54bcf800bde3b61c99ac0662c9ee64e98182f1"
+  }
+}

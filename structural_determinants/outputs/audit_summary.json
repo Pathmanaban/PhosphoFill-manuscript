@@ -1,0 +1,182 @@
+{
+  "modified_all_n": 1397,
+  "unmodified_all_n": 4513,
+  "benchmark_single_site_n": 790,
+  "benchmark_exact_join_n": 775,
+  "benchmark_unmatched_n": 15,
+  "common_785_exact_join_n": 773,
+  "common_785_unmatched_n": 12,
+  "logistic": {
+    "complete_case_n": 744,
+    "success_n": 507,
+    "success_threshold_angstrom": 1.0,
+    "regularization": "sklearn LogisticRegression default L2, C=1",
+    "feature_correlation": {
+      "nearest_basic_dist": {
+        "nearest_basic_dist": 1.0,
+        "n_basic_within4": -0.6906,
+        "n_basic_within6": -0.6886,
+        "nonwater_heavy_within6": -0.4563
+      },
+      "n_basic_within4": {
+        "nearest_basic_dist": -0.6906,
+        "n_basic_within4": 1.0,
+        "n_basic_within6": 0.8362,
+        "nonwater_heavy_within6": 0.6125
+      },
+      "n_basic_within6": {
+        "nearest_basic_dist": -0.6886,
+        "n_basic_within4": 0.8362,
+        "n_basic_within6": 1.0,
+        "nonwater_heavy_within6": 0.6551
+      },
+      "nonwater_heavy_within6": {
+        "nearest_basic_dist": -0.4563,
+        "n_basic_within4": 0.6125,
+        "n_basic_within6": 0.6551,
+        "nonwater_heavy_within6": 1.0
+      }
+    }
+  },
+  "software": {
+    "python": "3.12.14",
+    "python_dependencies": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "scikit_learn": "1.9.1",
+      "matplotlib": "3.11.2",
+      "biopython": "1.88"
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\comparator_validation\\outputs\\analysis\\common_785_site_metrics.tsv",
+      "sha256": "d963277ffabe4c061978d26ed124d06ae0cae30314c83f036b693b98a5488b80"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\PTR_postmin.tsv",
+      "sha256": "0929c92f280bab80f9d95a97dd088ee7022eb9f1c663b93f8089854a0fde3ee9"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\SEP_postmin.tsv",
+      "sha256": "e0734aae6fc531c754001ec1070bc47ce30dcb9f8e61d6d5a68b1b8b19f020cf"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Benchmarkv2\\PhosphoFill-gihub\\Benchmark\\outputs\\raw\\TPO_postmin.tsv",
+      "sha256": "48b27d56f2270aa2fa6efc7a301ec0c8360b5116bcbdbf981c54b0f4af6bca92"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\PTR_context_audit.tsv",
+      "sha256": "fdbeb8e909aeac75edf5bc11f40ee05932757f82d440083de7e6b053969e6a2c"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\SEP_context_audit.tsv",
+      "sha256": "fe1e702696b14f8fe8f9fdf1ad03fce159b7964064f81eec7b6bb1201b8e5725"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_all\\TPO_context_audit.tsv",
+      "sha256": "e11045e16a7bc63c9efa51247b54bcf800bde3b61c99ac0662c9ee64e98182f1"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\PTR_context_audit.tsv",
+      "sha256": "94c329ba99e50773c8d12a0db5bb5c1402c3e92b017649d47ca2fccd656574ce"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\SEP_context_audit.tsv",
+      "sha256": "ef7010221b906764adb15ef897ffa6555ce42de687a431355b383c0e89a9a626"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_context_audit_single\\TPO_context_audit.tsv",
+      "sha256": "4581bc6b30150a7c27fab9cc3bec17a3b33b4c41a588b4ecf4c47d11b2dc0396"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_all\\SEP_geometry_prior.summary.json",
+      "sha256": "771a90f5c4f731b22bbc769ead98ea4ae5460fa2af9dcb7afaa69df3fb225d01"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_all\\SEP_geometry_prior.tsv",
+      "sha256": "69c2376dd7c88a9f0e5a04a52c00d33139889ca9608a1008a9c60759f46ee85f"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_all\\TPO_geometry_prior.summary.json",
+      "sha256": "541f682432b582ee0aa316ab3b6704bc6139ac26267c6a9ea3e3dd52b7901bfa"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_all\\TPO_geometry_prior.tsv",
+      "sha256": "31b22f144adfab158106c3b29eb36627654d7ef4bb54394d2d302a5e738984db"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_single\\SEP_geometry_prior.summary.json",
+      "sha256": "a20acb2a777f77d5d395c35f3cdd34f4660f0cbf70fcaf4e94155b38afed2f5c"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_single\\SEP_geometry_prior.tsv",
+      "sha256": "7f2356002e8f456a6a272210c2cad954f6644fec9a79ec33fb1a1acd55dfff39"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_single\\TPO_geometry_prior.summary.json",
+      "sha256": "31b9a6081ca79485285502b3e0bf04eb8b2078c5459b7a338c3451d9062bb683"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\mod_geometry_prior_single\\TPO_geometry_prior.tsv",
+      "sha256": "31108144aeab7b0a7f203454355d1dd5be41376a839bc505f4e28c6d4a5b2bd3"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_all\\SER_context_audit.tsv",
+      "sha256": "c01c5a238bb428d2e0a54f20ed0e3e31ffad3e4c6eb1913ebe10b146db762bf7"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_all\\THR_context_audit.tsv",
+      "sha256": "78d1a1bf3bb603ff9e82564fde1c0e140602aa6ef6aee01582d2fe7c471f0d1e"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_all\\TYR_context_audit.tsv",
+      "sha256": "968b62eeb499fa2bc520d24c2a5df1a724c3aea7205003d33cc10abcf0ecc9b1"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_single\\SER_context_audit.tsv",
+      "sha256": "fced6c53738f16665fa34cdc4fa9401919542351c7b66dcb0e81f646a54dae9f"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_single\\THR_context_audit.tsv",
+      "sha256": "a40038be08ff640b9f279f7b936accc4245f8da18b0d8b082dfeb9058a9a5464"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_context_audit_single\\TYR_context_audit.tsv",
+      "sha256": "f7f6b80cb33e1c9b7cffb7a05f9be5992b21d18d34663f51f8bb5a924c8938e5"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_all\\SER_geometry_prior.summary.json",
+      "sha256": "43d86e8009182a83688efce91b225c8463f60dc48158e5b55dd5d3993a9b9c7a"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_all\\SER_geometry_prior.tsv",
+      "sha256": "53ce56f8f4ffad4cc3250475e7af635f3bd2b8360c2cdb8e76b89d6709d6566c"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_all\\THR_geometry_prior.summary.json",
+      "sha256": "7e2a93874b75865a69d3edff38eef8dcf1b8a0896deaacfab5a61c0cdb3148b0"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_all\\THR_geometry_prior.tsv",
+      "sha256": "e6809793c792b688e33f2241f327766525a8a50afbc1829305f508db22c71ba2"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_single\\SER_geometry_prior.summary.json",
+      "sha256": "68cd36aceb13dd3f91ba48c0b454022743475e0e2b4d0a8757f1e923f093c5ac"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_single\\SER_geometry_prior.tsv",
+      "sha256": "ce4b18992c4b0056676dc556bebe102dc57cd69de4ddddcf2a151b2806c437d7"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_single\\THR_geometry_prior.summary.json",
+      "sha256": "43d092fa881ccf0618f6c3b19acd94779cba59bbca6dd459bd83aabbd45bf586"
+    },
+    {
+      "path": "C:\\Users\\drpat\\OneDrive - UGent\\Desktop\\PD\\Phospho-fill\\Validation-allPDB\\unmod_geometry_prior_single\\THR_geometry_prior.tsv",
+      "sha256": "57d3e309374d0baa4e460529f40003784d1e969a74d780d0f7ddc76570003fce"
+    }
+  ]
+}

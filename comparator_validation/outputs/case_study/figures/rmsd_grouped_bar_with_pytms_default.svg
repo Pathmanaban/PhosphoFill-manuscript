@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="28.0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">Case-study phosphate RMSD by tool, including PyTMs default</text>
+<line x1="80" y1="60" x2="80" y2="410" stroke="#333"/>
+<line x1="80" y1="410" x2="920" y2="410" stroke="#333"/>
+<line x1="75" y1="410.0" x2="920" y2="410.0" stroke="#e8e8e8"/>
+<text x="70.0" y="414.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">0.0</text>
+<line x1="75" y1="340.0" x2="920" y2="340.0" stroke="#e8e8e8"/>
+<text x="70.0" y="344.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">0.8</text>
+<line x1="75" y1="270.0" x2="920" y2="270.0" stroke="#e8e8e8"/>
+<text x="70.0" y="274.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">1.6</text>
+<line x1="75" y1="200.0" x2="920" y2="200.0" stroke="#e8e8e8"/>
+<text x="70.0" y="204.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">2.4</text>
+<line x1="75" y1="130.0" x2="920" y2="130.0" stroke="#e8e8e8"/>
+<text x="70.0" y="134.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">3.3</text>
+<line x1="75" y1="60.0" x2="920" y2="60.0" stroke="#e8e8e8"/>
+<text x="70.0" y="64.0" font-family="Arial, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#222">4.1</text>
+<rect x="105.0" y="392.6" width="16.0" height="17.4" fill="#2f6fbb"/>
+<rect x="123.0" y="392.6" width="16.0" height="17.4" fill="#7aa6d8"/>
+<rect x="141.0" y="218.4" width="16.0" height="191.6" fill="#e8b07a"/>
+<rect x="159.0" y="119.8" width="16.0" height="290.2" fill="#d97932"/>
+<rect x="177.0" y="221.7" width="16.0" height="188.3" fill="#4c9a5f"/>
+<text x="150.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">CDK2</text>
+<text x="150.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">TPO</text>
+<text x="150.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">160</text>
+<text x="150.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">2CCH</text>
+<rect x="245.0" y="388.8" width="16.0" height="21.2" fill="#2f6fbb"/>
+<rect x="263.0" y="388.8" width="16.0" height="21.2" fill="#7aa6d8"/>
+<rect x="281.0" y="231.1" width="16.0" height="178.9" fill="#e8b07a"/>
+<rect x="299.0" y="165.4" width="16.0" height="244.6" fill="#d97932"/>
+<rect x="317.0" y="232.1" width="16.0" height="177.9" fill="#4c9a5f"/>
+<text x="290.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">CDK2</text>
+<text x="290.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">TPO</text>
+<text x="290.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">160</text>
+<text x="290.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">4EOJ</text>
+<rect x="385.0" y="382.2" width="16.0" height="27.8" fill="#2f6fbb"/>
+<rect x="403.0" y="382.2" width="16.0" height="27.8" fill="#7aa6d8"/>
+<rect x="421.0" y="235.0" width="16.0" height="175.0" fill="#e8b07a"/>
+<rect x="439.0" y="207.1" width="16.0" height="202.9" fill="#d97932"/>
+<rect x="457.0" y="230.5" width="16.0" height="179.5" fill="#4c9a5f"/>
+<text x="430.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">ERK2</text>
+<text x="430.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">TPO</text>
+<text x="430.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">185</text>
+<text x="430.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">4IZA</text>
+<rect x="525.0" y="384.5" width="16.0" height="25.5" fill="#2f6fbb"/>
+<rect x="543.0" y="384.5" width="16.0" height="25.5" fill="#7aa6d8"/>
+<rect x="561.0" y="222.0" width="16.0" height="188.0" fill="#e8b07a"/>
+<rect x="579.0" y="301.3" width="16.0" height="108.7" fill="#d97932"/>
+<rect x="597.0" y="215.9" width="16.0" height="194.1" fill="#4c9a5f"/>
+<text x="570.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">ERK2</text>
+<text x="570.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">TPO</text>
+<text x="570.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">185</text>
+<text x="570.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">5V62</text>
+<rect x="665.0" y="329.3" width="16.0" height="80.7" fill="#2f6fbb"/>
+<rect x="683.0" y="329.3" width="16.0" height="80.7" fill="#7aa6d8"/>
+<rect x="701.0" y="307.6" width="16.0" height="102.4" fill="#e8b07a"/>
+<rect x="719.0" y="132.7" width="16.0" height="277.3" fill="#d97932"/>
+<rect x="737.0" y="191.4" width="16.0" height="218.6" fill="#4c9a5f"/>
+<text x="710.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">ERK2</text>
+<text x="710.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">PTR</text>
+<text x="710.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">187</text>
+<text x="710.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">4IZA</text>
+<rect x="805.0" y="339.9" width="16.0" height="70.1" fill="#2f6fbb"/>
+<rect x="823.0" y="366.1" width="16.0" height="43.9" fill="#7aa6d8"/>
+<rect x="841.0" y="105.7" width="16.0" height="304.3" fill="#e8b07a"/>
+<rect x="859.0" y="361.0" width="16.0" height="49.0" fill="#d97932"/>
+<rect x="877.0" y="227.1" width="16.0" height="182.9" fill="#4c9a5f"/>
+<text x="850.0" y="434.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">ERK2</text>
+<text x="850.0" y="448.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">PTR</text>
+<text x="850.0" y="462.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">187</text>
+<text x="850.0" y="476.0" font-family="Arial, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#222">5V62</text>
+<rect x="90" y="480" width="14" height="14" fill="#2f6fbb"/>
+<text x="110.0" y="492.0" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222">PhosphoFill top1</text>
+<rect x="280" y="480" width="14" height="14" fill="#7aa6d8"/>
+<text x="300.0" y="492.0" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222">PhosphoFill best-of-3</text>
+<rect x="470" y="480" width="14" height="14" fill="#e8b07a"/>
+<text x="490.0" y="492.0" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222">PyTMs default</text>
+<rect x="660" y="480" width="14" height="14" fill="#d97932"/>
+<text x="680.0" y="492.0" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222">PyTMs optimized</text>
+<rect x="850" y="480" width="14" height="14" fill="#4c9a5f"/>
+<text x="870.0" y="492.0" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#222">PTM-Psi</text>
+<text x="22.0" y="235.0" font-family="Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#222" transform="rotate(-90 22 235.0)">RMSD (A)</text>
+</svg>

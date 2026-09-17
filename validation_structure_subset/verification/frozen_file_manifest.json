@@ -1,0 +1,116 @@
+{
+  "algorithm": "SHA-256",
+  "file_count": 22,
+  "files": [
+    {
+      "path": "environment/requirements.txt",
+      "bytes": 90,
+      "sha256": "f70249a3d8a40d8d02b69b32dcac1875df9d38bef2cd3f148d7391b2a41dab56"
+    },
+    {
+      "path": "inputs/cache/1r0z.cif",
+      "bytes": 1001777,
+      "sha256": "1b8b5938ba25a1886697179f55efa7891255288a93275d0cffbdc31475389f1d"
+    },
+    {
+      "path": "inputs/cache/1uu3.cif",
+      "bytes": 337443,
+      "sha256": "cee0e1d596ce7816c109c07f1ae776c16c474af08c3864bbc7f693cd7b5be406"
+    },
+    {
+      "path": "inputs/cache/2cch.cif",
+      "bytes": 2146071,
+      "sha256": "11c52060f14d6896357915a7481f931c4a14d4a0fec02b5d72a1490889a71408"
+    },
+    {
+      "path": "inputs/cache/2j0l.cif",
+      "bytes": 334676,
+      "sha256": "a95de6d253afb302a4759ef5eb5430637f7bccdd1f57c0ebfa9762663400acc5"
+    },
+    {
+      "path": "inputs/cache/2zm3.cif",
+      "bytes": 1077944,
+      "sha256": "7300636c347dfe73b7e3812332ae62e4909e33990d7fda74eb039726267210b8"
+    },
+    {
+      "path": "inputs/cache/4bn1.cif",
+      "bytes": 309532,
+      "sha256": "9b51c044ba66242d71688a21389a227d6b58722c0d5d23692a60576876a6899c"
+    },
+    {
+      "path": "inputs/cache/4eoj.cif",
+      "bytes": 1891113,
+      "sha256": "75c0c6c233849ad6f86cf85ec0f22392ede0030b61ed1750fc89f656e52a4681"
+    },
+    {
+      "path": "inputs/cache/4iza.cif",
+      "bytes": 743078,
+      "sha256": "e734e0243df99349b6a7146f56205fc21b3b4949e9ea8d91baafb18e0d44fa96"
+    },
+    {
+      "path": "inputs/cache/5n6n.cif",
+      "bytes": 1073378,
+      "sha256": "6af6b03b72abc1597af8cb740e051f9c0487dba38863810e4bad81ad7a22c45a"
+    },
+    {
+      "path": "inputs/cache/5v62.cif",
+      "bytes": 676783,
+      "sha256": "e0794dce735da52d539e9c74f4f8388079f380e988f8c49fe3d8b363e724aba8"
+    },
+    {
+      "path": "inputs/cache/8r27.cif",
+      "bytes": 550017,
+      "sha256": "ad9bc5b63a44d4d49946af0fad3c029ac760b73307e1bfe21b8057994eaa367f"
+    },
+    {
+      "path": "inputs/cache/PTR.cif",
+      "bytes": 8777,
+      "sha256": "b78f4345d0daeea714cd3af836934b5aec24e5cad8f4d5a5ecbaa4a99722ad6d"
+    },
+    {
+      "path": "inputs/cache/SEP.cif",
+      "bytes": 7339,
+      "sha256": "8a64575a99938ed0960684067183d8b7a85daabb204fda3c13c24fa9353e86a9"
+    },
+    {
+      "path": "inputs/cache/TPO.cif",
+      "bytes": 7734,
+      "sha256": "d642585cb6396dd78eccb0240a3ed654a27b772881e719b8d3d298cd57d57b1b"
+    },
+    {
+      "path": "inputs/source_benchmarks/PTR_benchmark.tsv",
+      "bytes": 24250,
+      "sha256": "29a207d602837349cdf299606dd8dbf66a1135b94ddb54ffd9702e52eedf4a0a"
+    },
+    {
+      "path": "inputs/source_benchmarks/SEP_benchmark.tsv",
+      "bytes": 22976,
+      "sha256": "ec38cbf567719cd6a8b4be45c889ccd27dc49e1b5db3bb09faf74ac117482d23"
+    },
+    {
+      "path": "inputs/source_benchmarks/TPO_benchmark.tsv",
+      "bytes": 27690,
+      "sha256": "de75c94ec7479524aa48adb1230a3635c28edf2b0dfb3b7142d7f0b363438334"
+    },
+    {
+      "path": "inputs/subset_cases.json",
+      "bytes": 6822,
+      "sha256": "37ad602ece4f8fb75f1737ef7c30588a115d0dc82fd3919b7de0c6ef5994a242"
+    },
+    {
+      "path": "scripts/frozen/graft_phospho_openmm_production.py",
+      "bytes": 125752,
+      "sha256": "54a0511f1b0a9dfccb27ea69ab03f77b89a17088eeda524f0b124d8b31239327"
+    },
+    {
+      "path": "scripts/frozen/phosphofill_benchmark_production.py",
+      "bytes": 84851,
+      "sha256": "3ebc165666e04d8cc8f571601a2874b784079d0a6e9f0408ad5abe69498c9608"
+    },
+    {
+      "path": "scripts/frozen/phosphofill_report_v4_modes_geom.py",
+      "bytes": 59198,
+      "sha256": "5d34f8a0091339efd6ed4eeedd4254d70eb7cc5f445deaf29cd66164c92976d0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "captured_at_utc": "2026-08-27T14:51:33.496686+00:00",
+  "python_executable": "/home/paddy/venvs/ptm/bin/python",
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "1.26.4",
+    "Bio": "1.87",
+    "pandas": "2.1.4",
+    "scipy": "1.12.0",
+    "matplotlib": "3.8.4",
+    "openmm": "8.5"
+  }
+}

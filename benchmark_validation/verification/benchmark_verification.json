@@ -1,0 +1,404 @@
+{
+  "status": "PASS",
+  "checks_run": 60,
+  "checks_failed": 0,
+  "cohort": {
+    "primary_ok": 1284,
+    "single_site": 790,
+    "multi_site": 494
+  },
+  "checks": [
+    {
+      "name": "TPO: raw row count",
+      "passed": true,
+      "observed": 524,
+      "expected": 524
+    },
+    {
+      "name": "TPO: status counts",
+      "passed": true,
+      "observed": {
+        "OK": 521,
+        "FAILED": 1,
+        "ERROR": 1,
+        "NO_COORDS": 1
+      },
+      "expected": {
+        "OK": 521,
+        "FAILED": 1,
+        "ERROR": 1,
+        "NO_COORDS": 1
+      }
+    },
+    {
+      "name": "TPO: primary OK count",
+      "passed": true,
+      "observed": 494,
+      "expected": 494
+    },
+    {
+      "name": "TPO: single-site count",
+      "passed": true,
+      "observed": 332,
+      "expected": 332
+    },
+    {
+      "name": "TPO: multi-site count",
+      "passed": true,
+      "observed": 162,
+      "expected": 162
+    },
+    {
+      "name": "TPO: duplicate primary keys",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "SEP: raw row count",
+      "passed": true,
+      "observed": 407,
+      "expected": 407
+    },
+    {
+      "name": "SEP: status counts",
+      "passed": true,
+      "observed": {
+        "OK": 403,
+        "NO_COORDS": 3,
+        "FAILED": 1
+      },
+      "expected": {
+        "OK": 403,
+        "NO_COORDS": 3,
+        "FAILED": 1
+      }
+    },
+    {
+      "name": "SEP: primary OK count",
+      "passed": true,
+      "observed": 300,
+      "expected": 300
+    },
+    {
+      "name": "SEP: single-site count",
+      "passed": true,
+      "observed": 241,
+      "expected": 241
+    },
+    {
+      "name": "SEP: multi-site count",
+      "passed": true,
+      "observed": 59,
+      "expected": 59
+    },
+    {
+      "name": "SEP: duplicate primary keys",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "PTR: raw row count",
+      "passed": true,
+      "observed": 503,
+      "expected": 503
+    },
+    {
+      "name": "PTR: status counts",
+      "passed": true,
+      "observed": {
+        "OK": 500,
+        "FAILED": 1,
+        "NO_COORDS": 2
+      },
+      "expected": {
+        "OK": 500,
+        "NO_COORDS": 2,
+        "FAILED": 1
+      }
+    },
+    {
+      "name": "PTR: primary OK count",
+      "passed": true,
+      "observed": 490,
+      "expected": 490
+    },
+    {
+      "name": "PTR: single-site count",
+      "passed": true,
+      "observed": 217,
+      "expected": 217
+    },
+    {
+      "name": "PTR: multi-site count",
+      "passed": true,
+      "observed": 273,
+      "expected": 273
+    },
+    {
+      "name": "PTR: duplicate primary keys",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "Combined: primary OK count",
+      "passed": true,
+      "observed": 1284,
+      "expected": 1284
+    },
+    {
+      "name": "Combined: single-site count",
+      "passed": true,
+      "observed": 790,
+      "expected": 790
+    },
+    {
+      "name": "Combined: multi-site count",
+      "passed": true,
+      "observed": 494,
+      "expected": 494
+    },
+    {
+      "name": "All ranks: top3 value matches minimum",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "All ranks: reported best rank is valid",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "All ranks: Stage 3 alias equals rank 1",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "All ranks: phosphate RMSD equals rank 1",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "Analysis summary: single-site count",
+      "passed": true,
+      "observed": 790,
+      "expected": 790
+    },
+    {
+      "name": "Analysis summary: multi-site count",
+      "passed": true,
+      "observed": 494,
+      "expected": 494
+    },
+    {
+      "name": "TPO: stage0_seed_median",
+      "passed": true,
+      "observed": 0.4225,
+      "expected": 0.4225
+    },
+    {
+      "name": "TPO: stage1_oracle_median",
+      "passed": true,
+      "observed": 0.4162,
+      "expected": 0.4162
+    },
+    {
+      "name": "TPO: stage2_selected_median",
+      "passed": true,
+      "observed": 0.42395,
+      "expected": 0.42395
+    },
+    {
+      "name": "TPO: top1_postmin_median",
+      "passed": true,
+      "observed": 0.42395,
+      "expected": 0.42395
+    },
+    {
+      "name": "TPO: top3_best_postmin_median",
+      "passed": true,
+      "observed": 0.4158,
+      "expected": 0.4158
+    },
+    {
+      "name": "SEP: stage0_seed_median",
+      "passed": true,
+      "observed": 1.2882,
+      "expected": 1.2882
+    },
+    {
+      "name": "SEP: stage1_oracle_median",
+      "passed": true,
+      "observed": 0.4527,
+      "expected": 0.4527
+    },
+    {
+      "name": "SEP: stage2_selected_median",
+      "passed": true,
+      "observed": 0.5519,
+      "expected": 0.5519
+    },
+    {
+      "name": "SEP: top1_postmin_median",
+      "passed": true,
+      "observed": 0.5533,
+      "expected": 0.5533
+    },
+    {
+      "name": "SEP: top3_best_postmin_median",
+      "passed": true,
+      "observed": 0.471,
+      "expected": 0.471
+    },
+    {
+      "name": "PTR: stage0_seed_median",
+      "passed": true,
+      "observed": 2.7306,
+      "expected": 2.7306
+    },
+    {
+      "name": "PTR: stage1_oracle_median",
+      "passed": true,
+      "observed": 0.5226,
+      "expected": 0.5226
+    },
+    {
+      "name": "PTR: stage2_selected_median",
+      "passed": true,
+      "observed": 1.0217,
+      "expected": 1.0217
+    },
+    {
+      "name": "PTR: top1_postmin_median",
+      "passed": true,
+      "observed": 1.0195,
+      "expected": 1.0195
+    },
+    {
+      "name": "PTR: top3_best_postmin_median",
+      "passed": true,
+      "observed": 0.6111,
+      "expected": 0.6111
+    },
+    {
+      "name": "Combined: stage0_seed_median",
+      "passed": true,
+      "observed": 1.0389,
+      "expected": 1.0389
+    },
+    {
+      "name": "Combined: stage1_oracle_median",
+      "passed": true,
+      "observed": 0.472,
+      "expected": 0.472
+    },
+    {
+      "name": "Combined: stage2_selected_median",
+      "passed": true,
+      "observed": 0.6057,
+      "expected": 0.6057
+    },
+    {
+      "name": "Combined: top1_postmin_median",
+      "passed": true,
+      "observed": 0.60565,
+      "expected": 0.60565
+    },
+    {
+      "name": "Combined: top3_best_postmin_median",
+      "passed": true,
+      "observed": 0.48745,
+      "expected": 0.48745
+    },
+    {
+      "name": "Analysis summary: all three poses independently measured",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "Source prior: TPO_PRIOR_OG1_P",
+      "passed": true,
+      "observed": 1.613,
+      "expected": 1.613
+    },
+    {
+      "name": "Source prior: TPO_PRIOR_CB_OG1_P_DEG",
+      "passed": true,
+      "observed": 118.8,
+      "expected": 118.8
+    },
+    {
+      "name": "Source prior: TPO_PRIOR_CG2_CB_OG1_P_DEG",
+      "passed": true,
+      "observed": -58.9,
+      "expected": -58.9
+    },
+    {
+      "name": "Source prior: SEP_PRIOR_OG_P",
+      "passed": true,
+      "observed": 1.614,
+      "expected": 1.614
+    },
+    {
+      "name": "Source prior: SEP_PRIOR_CB_OG_P_DEG",
+      "passed": true,
+      "observed": 115.4,
+      "expected": 115.4
+    },
+    {
+      "name": "Source prior: SEP_PRIOR_SHARP_MODE_DEG",
+      "passed": true,
+      "observed": 66.3,
+      "expected": 66.3
+    },
+    {
+      "name": "Source prior: SEP_PRIOR_BROAD_RANGE",
+      "passed": true,
+      "observed": [
+        -60.0,
+        50.0
+      ],
+      "expected": [
+        -60.0,
+        50.0
+      ]
+    },
+    {
+      "name": "Source prior: PTR_PRIOR_OH_P",
+      "passed": true,
+      "observed": 1.609,
+      "expected": 1.609
+    },
+    {
+      "name": "Source prior: PTR_PRIOR_CZ_OH_P_DEG",
+      "passed": true,
+      "observed": 125.1,
+      "expected": 125.1
+    },
+    {
+      "name": "Source prior: PTR_PRIOR_DEFAULT_SEED_MODE_DEG",
+      "passed": true,
+      "observed": 0.0,
+      "expected": 0.0
+    },
+    {
+      "name": "Source: experimental phosphate coordinates captured before stripping",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "Source: each rank RMSD is evaluated against ref_coords",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    }
+  ]
+}

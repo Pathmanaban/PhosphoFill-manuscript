@@ -1,0 +1,6 @@
+nearest_phosphate_distance_bin_A	n_sites	median_abs_c_to_n_delta_top1_A	maximum_abs_c_to_n_delta_top1_A	median_abs_c_to_n_delta_top3_A	maximum_abs_c_to_n_delta_top3_A	n_order_sensitive
+5–<6	8	0.00105	0.0047	0.00155	0.0118	0
+6–<8	22	0.0	0.0055	0.0	0.3797	2
+8–<10	30	0.0001	0.0068	0.0001	0.0056	0
+10–<15	271	0.0001	0.0063	0.0001	0.0063	0
+≥15	184	0.0	0.0025	0.0	0.0008	0

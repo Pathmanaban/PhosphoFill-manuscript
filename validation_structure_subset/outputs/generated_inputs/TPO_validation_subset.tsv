@@ -1,0 +1,6 @@
+ACC_ID	PDBID_1	CHAINID_1	MODRES_1	modpos_orig_1	P_STATUS_1	newpos_1	Resolution_1	PDBID_2	CHAINID_2	MODRES_2	modpos_orig_2	P_STATUS_2	newpos_2	Resolution_2	modpos_count_1	modpos_count_2	subset_class	n_target_sites	n_context_sites	validation_case_id	validation_case_study	validation_purpose
+P24941	2CCH	A	T	160	P	160	1.7					NP			1		TPO_single	1	1	case_cdk2_2cch_t160	1	CDK2 pThr160 manuscript case study.
+P24941	4EOJ	A	T	160	P	160	1.65					NP			1		TPO_single	1	1	case_cdk2_4eoj_t160	1	CDK2 pThr160 manuscript case study and PyMOL structural panel source.
+P28482	4IZA	A	T	185	P	185	1.93					NP			1		TPO_case_study_single_target	1	1	case_erk2_4iza_t185	1	ERK2 pThr185 manuscript case study; target-only row removes unrelated pTyr187 context from this TPO validation.
+P28482	5V62	A	T	185	P	185	1.9					NP			1		TPO_case_study_single_target	1	1	case_erk2_5v62_t185	1	ERK2 pThr185 manuscript case study; target-only row removes unrelated pTyr187 context from this TPO validation.
+O14965	4BN1	A	T,T	287,288	P	287,288	2.499					NP			2		TPO_only_multi_2	2	2	control_tpo_4bn1_multi	0	Clean two-site TPO joint-grafting control.
